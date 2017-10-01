@@ -1,0 +1,385 @@
+Tue, 26 Sep 2017 23:35:02 connectionpool.py[line:824] 10418 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:35:02 connectionpool.py[line:396] 10418 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:35:02 connectionpool.py[line:824] 10418 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:35:02 connectionpool.py[line:396] 10418 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:35:02 utils.py[line:22] 10418 INFO request is ok
+Tue, 26 Sep 2017 23:35:02 crontab.py[line:92] 10418 DEBUG epoch 1506440102 is over -----------------------------------------
+Tue, 26 Sep 2017 23:36:02 connectionpool.py[line:824] 10529 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:36:02 connectionpool.py[line:396] 10529 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:36:02 connectionpool.py[line:824] 10529 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:36:02 connectionpool.py[line:396] 10529 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:36:02 utils.py[line:22] 10529 INFO request is ok
+Tue, 26 Sep 2017 23:36:02 crontab.py[line:92] 10529 DEBUG epoch 1506440162 is over -----------------------------------------
+Tue, 26 Sep 2017 23:37:02 connectionpool.py[line:824] 10626 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:37:02 connectionpool.py[line:396] 10626 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:37:02 connectionpool.py[line:824] 10626 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:37:02 connectionpool.py[line:396] 10626 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:37:02 utils.py[line:22] 10626 INFO request is ok
+Tue, 26 Sep 2017 23:37:02 crontab.py[line:92] 10626 DEBUG epoch 1506440222 is over -----------------------------------------
+Tue, 26 Sep 2017 23:38:01 connectionpool.py[line:824] 10725 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:38:01 connectionpool.py[line:396] 10725 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:38:01 connectionpool.py[line:824] 10725 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:38:02 connectionpool.py[line:396] 10725 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:38:02 utils.py[line:22] 10725 INFO request is ok
+Tue, 26 Sep 2017 23:38:02 crontab.py[line:92] 10725 DEBUG epoch 1506440281 is over -----------------------------------------
+Tue, 26 Sep 2017 23:39:01 connectionpool.py[line:824] 10832 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:39:01 connectionpool.py[line:396] 10832 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:39:01 connectionpool.py[line:824] 10832 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:39:01 connectionpool.py[line:396] 10832 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:39:01 utils.py[line:22] 10832 INFO request is ok
+Tue, 26 Sep 2017 23:39:01 crontab.py[line:92] 10832 DEBUG epoch 1506440341 is over -----------------------------------------
+Tue, 26 Sep 2017 23:40:02 connectionpool.py[line:824] 10943 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:40:02 connectionpool.py[line:396] 10943 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:40:02 crontab.py[line:22] 10943 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.2 /data/image/collect/35/1506440402_%d.jpeg
+Tue, 26 Sep 2017 23:40:56 crontab.py[line:55] 10943 INFO SUCCEED pid is: 10972 | stream id is 35
+Tue, 26 Sep 2017 23:40:56 crontab.py[line:57] 10943 DEBUG SUCCESS collect process
+Tue, 26 Sep 2017 23:40:56 connectionpool.py[line:824] 10943 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:40:56 connectionpool.py[line:396] 10943 DEBUG https://xiaosong1234.cn:443 "GET /api/streamStatusCallBack?img_num=12&stream_id=35&code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:40:56 utils.py[line:22] 10943 INFO request is ok
+Tue, 26 Sep 2017 23:40:56 connectionpool.py[line:824] 10943 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:40:56 connectionpool.py[line:396] 10943 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:40:56 utils.py[line:22] 10943 INFO request is ok
+Tue, 26 Sep 2017 23:40:56 crontab.py[line:92] 10943 DEBUG epoch 1506440402 is over -----------------------------------------
+Tue, 26 Sep 2017 23:41:01 connectionpool.py[line:824] 11040 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:41:01 connectionpool.py[line:396] 11040 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:41:01 crontab.py[line:22] 11040 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.2 /data/image/collect/35/1506440461_%d.jpeg
+Tue, 26 Sep 2017 23:41:54 crontab.py[line:55] 11040 INFO SUCCEED pid is: 11076 | stream id is 35
+Tue, 26 Sep 2017 23:41:54 crontab.py[line:57] 11040 DEBUG SUCCESS collect process
+Tue, 26 Sep 2017 23:41:54 connectionpool.py[line:824] 11040 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:41:54 connectionpool.py[line:396] 11040 DEBUG https://xiaosong1234.cn:443 "GET /api/streamStatusCallBack?img_num=24&code=200&stream_id=35 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:41:54 utils.py[line:20] 11040 WARNING request res is not 1,and it is -1
+Tue, 26 Sep 2017 23:41:54 connectionpool.py[line:824] 11040 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:41:54 connectionpool.py[line:396] 11040 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:41:54 utils.py[line:22] 11040 INFO request is ok
+Tue, 26 Sep 2017 23:41:54 crontab.py[line:92] 11040 DEBUG epoch 1506440461 is over -----------------------------------------
+Tue, 26 Sep 2017 23:42:01 connectionpool.py[line:824] 11151 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:42:01 connectionpool.py[line:396] 11151 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:42:01 connectionpool.py[line:824] 11151 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:42:01 connectionpool.py[line:396] 11151 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:42:01 utils.py[line:22] 11151 INFO request is ok
+Tue, 26 Sep 2017 23:42:01 crontab.py[line:92] 11151 DEBUG epoch 1506440521 is over -----------------------------------------
+Tue, 26 Sep 2017 23:43:01 connectionpool.py[line:824] 11251 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:43:01 connectionpool.py[line:396] 11251 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:43:01 connectionpool.py[line:824] 11251 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:43:01 connectionpool.py[line:396] 11251 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:43:01 utils.py[line:22] 11251 INFO request is ok
+Tue, 26 Sep 2017 23:43:01 crontab.py[line:92] 11251 DEBUG epoch 1506440581 is over -----------------------------------------
+Tue, 26 Sep 2017 23:44:02 connectionpool.py[line:824] 11352 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:44:02 connectionpool.py[line:396] 11352 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:44:02 crontab.py[line:22] 11352 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/collect/36/1506440642_%d.jpeg
+Tue, 26 Sep 2017 23:44:58 crontab.py[line:55] 11352 INFO SUCCEED pid is: 11388 | stream id is 36
+Tue, 26 Sep 2017 23:44:58 crontab.py[line:57] 11352 DEBUG SUCCESS collect process
+Tue, 26 Sep 2017 23:44:58 connectionpool.py[line:824] 11352 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:44:58 connectionpool.py[line:396] 11352 DEBUG https://xiaosong1234.cn:443 "GET /api/streamStatusCallBack?stream_id=36&code=200&img_num=30 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:44:58 utils.py[line:22] 11352 INFO request is ok
+Tue, 26 Sep 2017 23:44:58 connectionpool.py[line:824] 11352 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:44:58 connectionpool.py[line:396] 11352 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:44:58 utils.py[line:22] 11352 INFO request is ok
+Tue, 26 Sep 2017 23:44:58 crontab.py[line:92] 11352 DEBUG epoch 1506440642 is over -----------------------------------------
+Tue, 26 Sep 2017 23:45:02 connectionpool.py[line:824] 11455 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:45:02 connectionpool.py[line:396] 11455 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:45:02 crontab.py[line:22] 11455 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/collect/36/1506440702_%d.jpeg
+Tue, 26 Sep 2017 23:45:58 crontab.py[line:55] 11455 INFO SUCCEED pid is: 11488 | stream id is 36
+Tue, 26 Sep 2017 23:45:58 crontab.py[line:57] 11455 DEBUG SUCCESS collect process
+Tue, 26 Sep 2017 23:45:58 connectionpool.py[line:824] 11455 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:45:58 connectionpool.py[line:396] 11455 DEBUG https://xiaosong1234.cn:443 "GET /api/streamStatusCallBack?code=200&img_num=60&stream_id=36 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:45:58 utils.py[line:22] 11455 INFO request is ok
+Tue, 26 Sep 2017 23:45:58 connectionpool.py[line:824] 11455 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:45:59 connectionpool.py[line:396] 11455 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:45:59 utils.py[line:22] 11455 INFO request is ok
+Tue, 26 Sep 2017 23:45:59 crontab.py[line:92] 11455 DEBUG epoch 1506440702 is over -----------------------------------------
+Tue, 26 Sep 2017 23:46:01 connectionpool.py[line:824] 11553 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:46:01 connectionpool.py[line:396] 11553 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:46:01 crontab.py[line:22] 11553 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/collect/36/1506440761_%d.jpeg
+Tue, 26 Sep 2017 23:46:57 crontab.py[line:55] 11553 INFO SUCCEED pid is: 11587 | stream id is 36
+Tue, 26 Sep 2017 23:46:57 crontab.py[line:57] 11553 DEBUG SUCCESS collect process
+Tue, 26 Sep 2017 23:46:57 connectionpool.py[line:824] 11553 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:46:57 connectionpool.py[line:396] 11553 DEBUG https://xiaosong1234.cn:443 "GET /api/streamStatusCallBack?stream_id=36&img_num=90&code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:46:57 utils.py[line:22] 11553 INFO request is ok
+Tue, 26 Sep 2017 23:46:57 connectionpool.py[line:824] 11553 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:46:57 connectionpool.py[line:396] 11553 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:46:57 utils.py[line:22] 11553 INFO request is ok
+Tue, 26 Sep 2017 23:46:57 crontab.py[line:92] 11553 DEBUG epoch 1506440761 is over -----------------------------------------
+Tue, 26 Sep 2017 23:47:02 connectionpool.py[line:824] 11687 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:47:02 connectionpool.py[line:396] 11687 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:47:02 crontab.py[line:22] 11687 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/collect/36/1506440822_%d.jpeg
+Tue, 26 Sep 2017 23:47:58 crontab.py[line:55] 11687 INFO SUCCEED pid is: 11714 | stream id is 36
+Tue, 26 Sep 2017 23:47:58 crontab.py[line:57] 11687 DEBUG SUCCESS collect process
+Tue, 26 Sep 2017 23:47:58 connectionpool.py[line:824] 11687 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:47:58 connectionpool.py[line:396] 11687 DEBUG https://xiaosong1234.cn:443 "GET /api/streamStatusCallBack?stream_id=36&img_num=120&code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:47:58 utils.py[line:20] 11687 WARNING request res is not 1,and it is -1
+Tue, 26 Sep 2017 23:47:58 connectionpool.py[line:824] 11687 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:47:58 connectionpool.py[line:396] 11687 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:47:58 utils.py[line:22] 11687 INFO request is ok
+Tue, 26 Sep 2017 23:47:58 crontab.py[line:92] 11687 DEBUG epoch 1506440822 is over -----------------------------------------
+Tue, 26 Sep 2017 23:48:02 connectionpool.py[line:824] 11789 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:48:02 connectionpool.py[line:396] 11789 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:48:02 crontab.py[line:22] 11789 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.2 /data/image/collect/37/1506440882_%d.jpeg
+Tue, 26 Sep 2017 23:48:55 crontab.py[line:55] 11789 INFO SUCCEED pid is: 11822 | stream id is 37
+Tue, 26 Sep 2017 23:48:55 crontab.py[line:57] 11789 DEBUG SUCCESS collect process
+Tue, 26 Sep 2017 23:48:55 connectionpool.py[line:824] 11789 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:48:55 connectionpool.py[line:396] 11789 DEBUG https://xiaosong1234.cn:443 "GET /api/streamStatusCallBack?img_num=12&stream_id=37&code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:48:55 utils.py[line:22] 11789 INFO request is ok
+Tue, 26 Sep 2017 23:48:55 connectionpool.py[line:824] 11789 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:48:55 connectionpool.py[line:396] 11789 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:48:55 utils.py[line:22] 11789 INFO request is ok
+Tue, 26 Sep 2017 23:48:55 crontab.py[line:92] 11789 DEBUG epoch 1506440882 is over -----------------------------------------
+Tue, 26 Sep 2017 23:49:01 connectionpool.py[line:824] 11890 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:49:01 connectionpool.py[line:396] 11890 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:49:01 crontab.py[line:22] 11890 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.2 /data/image/collect/37/1506440941_%d.jpeg
+Tue, 26 Sep 2017 23:49:54 crontab.py[line:55] 11890 INFO SUCCEED pid is: 11921 | stream id is 37
+Tue, 26 Sep 2017 23:49:54 crontab.py[line:57] 11890 DEBUG SUCCESS collect process
+Tue, 26 Sep 2017 23:49:54 connectionpool.py[line:824] 11890 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:49:54 connectionpool.py[line:396] 11890 DEBUG https://xiaosong1234.cn:443 "GET /api/streamStatusCallBack?code=200&stream_id=37&img_num=24 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:49:54 utils.py[line:22] 11890 INFO request is ok
+Tue, 26 Sep 2017 23:49:54 connectionpool.py[line:824] 11890 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:49:54 connectionpool.py[line:396] 11890 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:49:54 utils.py[line:22] 11890 INFO request is ok
+Tue, 26 Sep 2017 23:49:54 crontab.py[line:92] 11890 DEBUG epoch 1506440941 is over -----------------------------------------
+Tue, 26 Sep 2017 23:50:02 connectionpool.py[line:824] 11989 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:50:02 connectionpool.py[line:396] 11989 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:50:02 connectionpool.py[line:824] 11989 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:50:02 connectionpool.py[line:396] 11989 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:50:02 utils.py[line:22] 11989 INFO request is ok
+Tue, 26 Sep 2017 23:50:02 crontab.py[line:92] 11989 DEBUG epoch 1506441002 is over -----------------------------------------
+Tue, 26 Sep 2017 23:51:02 connectionpool.py[line:824] 12100 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:51:02 connectionpool.py[line:396] 12100 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:51:02 connectionpool.py[line:824] 12100 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:51:02 connectionpool.py[line:396] 12100 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:51:02 utils.py[line:22] 12100 INFO request is ok
+Tue, 26 Sep 2017 23:51:02 crontab.py[line:92] 12100 DEBUG epoch 1506441062 is over -----------------------------------------
+Tue, 26 Sep 2017 23:52:01 connectionpool.py[line:824] 12198 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:52:01 connectionpool.py[line:396] 12198 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:52:01 connectionpool.py[line:824] 12198 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:52:02 connectionpool.py[line:396] 12198 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:52:02 utils.py[line:22] 12198 INFO request is ok
+Tue, 26 Sep 2017 23:52:02 crontab.py[line:92] 12198 DEBUG epoch 1506441121 is over -----------------------------------------
+Tue, 26 Sep 2017 23:53:01 connectionpool.py[line:824] 12315 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:53:01 connectionpool.py[line:396] 12315 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:53:01 crontab.py[line:55] 12315 INFO SUCCEED pid is: 12346 | stream id is 37
+Tue, 26 Sep 2017 23:53:01 crontab.py[line:61] 12315 DEBUG SUCCESS manual process
+Tue, 26 Sep 2017 23:53:01 crontab.py[line:65] 12315 DEBUG model not exists and mkdir
+Tue, 26 Sep 2017 23:53:01 connectionpool.py[line:824] 12315 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:53:01 connectionpool.py[line:396] 12315 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:53:01 utils.py[line:22] 12315 INFO request is ok
+Tue, 26 Sep 2017 23:53:01 crontab.py[line:92] 12315 DEBUG epoch 1506441181 is over -----------------------------------------
+Tue, 26 Sep 2017 23:54:02 connectionpool.py[line:824] 12429 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:54:02 connectionpool.py[line:396] 12429 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:54:02 crontab.py[line:55] 12429 INFO SUCCEED pid is: 12460 | stream id is 37
+Tue, 26 Sep 2017 23:54:02 crontab.py[line:61] 12429 DEBUG SUCCESS manual process
+Tue, 26 Sep 2017 23:54:02 crontab.py[line:70] 12429 DEBUG model exists
+Tue, 26 Sep 2017 23:54:02 connectionpool.py[line:824] 12429 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:54:02 connectionpool.py[line:396] 12429 DEBUG https://xiaosong1234.cn:443 "GET /api/streamStatusCallBack?code=230&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:54:02 utils.py[line:22] 12429 INFO request is ok
+Tue, 26 Sep 2017 23:54:02 connectionpool.py[line:824] 12429 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:54:02 connectionpool.py[line:396] 12429 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:54:02 utils.py[line:22] 12429 INFO request is ok
+Tue, 26 Sep 2017 23:54:02 crontab.py[line:92] 12429 DEBUG epoch 1506441242 is over -----------------------------------------
+Tue, 26 Sep 2017 23:55:02 connectionpool.py[line:824] 12522 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:02 connectionpool.py[line:396] 12522 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:02 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37
+Tue, 26 Sep 2017 23:55:02 crontab.py[line:44] 12522 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/online/37/1506441302_%d.jpeg
+Tue, 26 Sep 2017 23:55:02 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_1.jpeg
+Tue, 26 Sep 2017 23:55:02 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:02 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:02 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:02 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:02 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_2.jpeg
+Tue, 26 Sep 2017 23:55:02 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:02 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:03 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:03 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:03 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_3.jpeg
+Tue, 26 Sep 2017 23:55:03 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:03 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:03 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:03 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:03 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_1.jpeg
+Tue, 26 Sep 2017 23:55:03 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_2.jpeg
+Tue, 26 Sep 2017 23:55:03 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_3.jpeg
+Tue, 26 Sep 2017 23:55:04 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_4.jpeg
+Tue, 26 Sep 2017 23:55:04 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:04 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:04 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:04 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:04 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_4.jpeg
+Tue, 26 Sep 2017 23:55:06 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_5.jpeg
+Tue, 26 Sep 2017 23:55:06 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:06 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:06 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:06 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:06 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_5.jpeg
+Tue, 26 Sep 2017 23:55:08 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_6.jpeg
+Tue, 26 Sep 2017 23:55:08 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:08 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:08 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:08 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:08 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_6.jpeg
+Tue, 26 Sep 2017 23:55:10 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_7.jpeg
+Tue, 26 Sep 2017 23:55:10 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:10 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:10 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:10 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:10 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_7.jpeg
+Tue, 26 Sep 2017 23:55:12 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_8.jpeg
+Tue, 26 Sep 2017 23:55:12 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:12 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:12 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:12 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:12 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_8.jpeg
+Tue, 26 Sep 2017 23:55:14 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_9.jpeg
+Tue, 26 Sep 2017 23:55:14 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:14 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:14 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:14 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:14 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_9.jpeg
+Tue, 26 Sep 2017 23:55:16 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_10.jpeg
+Tue, 26 Sep 2017 23:55:16 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:16 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:16 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:16 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:16 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_10.jpeg
+Tue, 26 Sep 2017 23:55:18 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_11.jpeg
+Tue, 26 Sep 2017 23:55:18 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:18 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:18 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:18 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:18 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_11.jpeg
+Tue, 26 Sep 2017 23:55:20 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_12.jpeg
+Tue, 26 Sep 2017 23:55:20 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:20 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:20 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:20 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:20 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_12.jpeg
+Tue, 26 Sep 2017 23:55:22 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_13.jpeg
+Tue, 26 Sep 2017 23:55:22 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:22 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:22 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:22 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:22 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_13.jpeg
+Tue, 26 Sep 2017 23:55:24 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_14.jpeg
+Tue, 26 Sep 2017 23:55:24 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:24 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:24 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:24 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:24 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_14.jpeg
+Tue, 26 Sep 2017 23:55:26 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_15.jpeg
+Tue, 26 Sep 2017 23:55:26 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:26 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:26 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:26 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:26 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_15.jpeg
+Tue, 26 Sep 2017 23:55:28 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_16.jpeg
+Tue, 26 Sep 2017 23:55:28 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:28 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:28 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:28 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:28 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_16.jpeg
+Tue, 26 Sep 2017 23:55:30 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_17.jpeg
+Tue, 26 Sep 2017 23:55:30 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:30 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:30 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:30 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:30 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_17.jpeg
+Tue, 26 Sep 2017 23:55:32 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_18.jpeg
+Tue, 26 Sep 2017 23:55:32 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:32 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:32 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:32 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:32 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_18.jpeg
+Tue, 26 Sep 2017 23:55:34 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_19.jpeg
+Tue, 26 Sep 2017 23:55:34 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:34 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:34 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:34 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:34 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_19.jpeg
+Tue, 26 Sep 2017 23:55:36 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_20.jpeg
+Tue, 26 Sep 2017 23:55:36 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:36 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:36 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:36 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:36 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_20.jpeg
+Tue, 26 Sep 2017 23:55:38 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_21.jpeg
+Tue, 26 Sep 2017 23:55:38 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:38 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:38 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:38 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:38 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_21.jpeg
+Tue, 26 Sep 2017 23:55:40 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_22.jpeg
+Tue, 26 Sep 2017 23:55:40 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:40 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:40 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:40 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:40 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_22.jpeg
+Tue, 26 Sep 2017 23:55:42 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_23.jpeg
+Tue, 26 Sep 2017 23:55:42 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:42 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:42 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:42 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:42 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_23.jpeg
+Tue, 26 Sep 2017 23:55:44 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_24.jpeg
+Tue, 26 Sep 2017 23:55:44 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:44 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:44 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:44 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:44 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_24.jpeg
+Tue, 26 Sep 2017 23:55:46 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_25.jpeg
+Tue, 26 Sep 2017 23:55:46 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:46 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:46 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:46 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:46 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_25.jpeg
+Tue, 26 Sep 2017 23:55:48 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_26.jpeg
+Tue, 26 Sep 2017 23:55:48 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:48 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:48 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:48 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:48 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_26.jpeg
+Tue, 26 Sep 2017 23:55:50 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_27.jpeg
+Tue, 26 Sep 2017 23:55:50 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:50 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:50 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:50 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:50 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_27.jpeg
+Tue, 26 Sep 2017 23:55:52 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_28.jpeg
+Tue, 26 Sep 2017 23:55:52 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:52 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:52 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:52 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:52 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_28.jpeg
+Tue, 26 Sep 2017 23:55:54 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_29.jpeg
+Tue, 26 Sep 2017 23:55:54 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:54 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:54 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:54 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:54 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_29.jpeg
+Tue, 26 Sep 2017 23:55:56 montor_dir.py[line:21] 10500 INFO Create event : /data/image/online/37/1506441302_30.jpeg
+Tue, 26 Sep 2017 23:55:56 montor_dir.py[line:30] 10500 INFO stream: 37 | label 1 | percent60
+Tue, 26 Sep 2017 23:55:56 connectionpool.py[line:824] 10500 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:56 connectionpool.py[line:396] 10500 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?percent=60&label=1&stream_id=37 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:56 utils.py[line:20] 10500 WARNING request res is not 1,and it is 
+Tue, 26 Sep 2017 23:55:56 montor_dir.py[line:41] 10500 INFO Delete event : /data/image/online/37/1506441302_30.jpeg
+Tue, 26 Sep 2017 23:55:58 crontab.py[line:55] 12522 INFO SUCCEED pid is: 12562 | stream id is 37
+Tue, 26 Sep 2017 23:55:58 crontab.py[line:76] 12522 DEBUG SUCCESS online process
+Tue, 26 Sep 2017 23:55:58 connectionpool.py[line:824] 12522 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:55:58 connectionpool.py[line:396] 12522 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:55:58 utils.py[line:22] 12522 INFO request is ok
+Tue, 26 Sep 2017 23:55:58 crontab.py[line:92] 12522 DEBUG epoch 1506441302 is over -----------------------------------------
+Tue, 26 Sep 2017 23:56:01 connectionpool.py[line:824] 12650 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:56:01 connectionpool.py[line:396] 12650 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:56:01 connectionpool.py[line:824] 12650 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:56:02 connectionpool.py[line:396] 12650 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:56:02 utils.py[line:22] 12650 INFO request is ok
+Tue, 26 Sep 2017 23:56:02 crontab.py[line:92] 12650 DEBUG epoch 1506441361 is over -----------------------------------------
+Tue, 26 Sep 2017 23:57:01 connectionpool.py[line:824] 12763 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:57:01 connectionpool.py[line:396] 12763 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:57:01 connectionpool.py[line:824] 12763 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:57:01 connectionpool.py[line:396] 12763 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:57:01 utils.py[line:22] 12763 INFO request is ok
+Tue, 26 Sep 2017 23:57:01 crontab.py[line:92] 12763 DEBUG epoch 1506441421 is over -----------------------------------------
+Tue, 26 Sep 2017 23:58:02 connectionpool.py[line:824] 12861 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:58:02 connectionpool.py[line:396] 12861 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:58:02 connectionpool.py[line:824] 12861 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Tue, 26 Sep 2017 23:58:02 connectionpool.py[line:396] 12861 DEBUG https://xiaosong1234.cn:443 "GET /api/serverStatusCallBack?code=200 HTTP/1.1" 200 None
+Tue, 26 Sep 2017 23:58:02 utils.py[line:22] 12861 INFO request is ok
+Tue, 26 Sep 2017 23:58:02 crontab.py[line:92] 12861 DEBUG epoch 1506441482 is over -----------------------------------------

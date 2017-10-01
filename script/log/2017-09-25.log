@@ -1,0 +1,1202 @@
+Mon, 25 Sep 2017 23:19:02 connectionpool.py[line:824] 32511 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:19:02 connectionpool.py[line:396] 32511 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:19:02 crontab.py[line:58] 32511 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/online/20/1506352742_%d.jpeg
+Mon, 25 Sep 2017 23:19:02 montor_dir.py[line:29] 32461 INFO Create event : /data/image/online/20/1506352742_1.jpeg
+Mon, 25 Sep 2017 23:19:59 crontab.py[line:69] 32511 INFO SUCCEED pid is: 32543 | stream id is 20
+Mon, 25 Sep 2017 23:19:59 crontab.py[line:89] 32511 DEBUG SUCCESS online process
+Mon, 25 Sep 2017 23:19:59 crontab.py[line:104] 32511 DEBUG epoch 1506352742 is over -----------------------------------------
+Mon, 25 Sep 2017 23:20:01 connectionpool.py[line:824] 32606 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:20:01 connectionpool.py[line:396] 32606 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:20:01 crontab.py[line:58] 32606 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/online/20/1506352801_%d.jpeg
+Mon, 25 Sep 2017 23:20:56 crontab.py[line:69] 32606 INFO SUCCEED pid is: 32641 | stream id is 20
+Mon, 25 Sep 2017 23:20:56 crontab.py[line:89] 32606 DEBUG SUCCESS online process
+Mon, 25 Sep 2017 23:20:56 crontab.py[line:104] 32606 DEBUG epoch 1506352801 is over -----------------------------------------
+Mon, 25 Sep 2017 23:21:02 connectionpool.py[line:824] 32706 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:21:02 connectionpool.py[line:396] 32706 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:21:02 crontab.py[line:58] 32706 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/online/20/1506352862_%d.jpeg
+Mon, 25 Sep 2017 23:21:54 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352862_29.jpeg
+Mon, 25 Sep 2017 23:21:54 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:21:54 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:21:55 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:21:55 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:21:55 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_29.jpeg
+Mon, 25 Sep 2017 23:21:57 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352862_30.jpeg
+Mon, 25 Sep 2017 23:21:57 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:21:57 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:21:57 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:21:57 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:21:57 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_30.jpeg
+Mon, 25 Sep 2017 23:21:59 crontab.py[line:69] 32706 INFO SUCCEED pid is: 32736 | stream id is 20
+Mon, 25 Sep 2017 23:21:59 crontab.py[line:89] 32706 DEBUG SUCCESS online process
+Mon, 25 Sep 2017 23:21:59 crontab.py[line:104] 32706 DEBUG epoch 1506352862 is over -----------------------------------------
+Mon, 25 Sep 2017 23:22:01 connectionpool.py[line:824] 334 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:01 connectionpool.py[line:396] 334 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:01 crontab.py[line:58] 334 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/online/20/1506352921_%d.jpeg
+Mon, 25 Sep 2017 23:22:02 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_1.jpeg
+Mon, 25 Sep 2017 23:22:02 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:02 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:02 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_2.jpeg
+Mon, 25 Sep 2017 23:22:02 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:02 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:02 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_3.jpeg
+Mon, 25 Sep 2017 23:22:02 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:02 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_1.jpeg
+Mon, 25 Sep 2017 23:22:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_2.jpeg
+Mon, 25 Sep 2017 23:22:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_3.jpeg
+Mon, 25 Sep 2017 23:22:04 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_4.jpeg
+Mon, 25 Sep 2017 23:22:04 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:04 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:04 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:04 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:04 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_4.jpeg
+Mon, 25 Sep 2017 23:22:06 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_5.jpeg
+Mon, 25 Sep 2017 23:22:06 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:06 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:06 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:06 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:06 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_5.jpeg
+Mon, 25 Sep 2017 23:22:08 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_6.jpeg
+Mon, 25 Sep 2017 23:22:08 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:08 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:08 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:08 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:08 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_6.jpeg
+Mon, 25 Sep 2017 23:22:10 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_7.jpeg
+Mon, 25 Sep 2017 23:22:10 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:10 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:10 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:10 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:10 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_7.jpeg
+Mon, 25 Sep 2017 23:22:12 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_8.jpeg
+Mon, 25 Sep 2017 23:22:12 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:12 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:12 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:12 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:12 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_8.jpeg
+Mon, 25 Sep 2017 23:22:14 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_9.jpeg
+Mon, 25 Sep 2017 23:22:14 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:14 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:14 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:14 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:14 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_9.jpeg
+Mon, 25 Sep 2017 23:22:16 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_10.jpeg
+Mon, 25 Sep 2017 23:22:16 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:16 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:16 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:16 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:16 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_10.jpeg
+Mon, 25 Sep 2017 23:22:18 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_11.jpeg
+Mon, 25 Sep 2017 23:22:18 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:18 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:18 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:18 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:18 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_11.jpeg
+Mon, 25 Sep 2017 23:22:20 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_12.jpeg
+Mon, 25 Sep 2017 23:22:20 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:20 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:20 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:20 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:20 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_12.jpeg
+Mon, 25 Sep 2017 23:22:22 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_13.jpeg
+Mon, 25 Sep 2017 23:22:22 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:22 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:22 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:22 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:22 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_13.jpeg
+Mon, 25 Sep 2017 23:22:24 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_14.jpeg
+Mon, 25 Sep 2017 23:22:24 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:24 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:24 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:24 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:24 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_14.jpeg
+Mon, 25 Sep 2017 23:22:26 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_15.jpeg
+Mon, 25 Sep 2017 23:22:26 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:26 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:26 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:26 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:26 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_15.jpeg
+Mon, 25 Sep 2017 23:22:28 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_16.jpeg
+Mon, 25 Sep 2017 23:22:28 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:28 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:28 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:28 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:28 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_16.jpeg
+Mon, 25 Sep 2017 23:22:30 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_17.jpeg
+Mon, 25 Sep 2017 23:22:30 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:30 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:30 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:30 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:30 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_17.jpeg
+Mon, 25 Sep 2017 23:22:32 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_18.jpeg
+Mon, 25 Sep 2017 23:22:32 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:32 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:32 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:32 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:32 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_18.jpeg
+Mon, 25 Sep 2017 23:22:34 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_19.jpeg
+Mon, 25 Sep 2017 23:22:34 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:34 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:34 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:34 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:34 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_19.jpeg
+Mon, 25 Sep 2017 23:22:36 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_20.jpeg
+Mon, 25 Sep 2017 23:22:36 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:36 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:36 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:36 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:36 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_20.jpeg
+Mon, 25 Sep 2017 23:22:38 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_21.jpeg
+Mon, 25 Sep 2017 23:22:38 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:38 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:38 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:38 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:38 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_21.jpeg
+Mon, 25 Sep 2017 23:22:40 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_22.jpeg
+Mon, 25 Sep 2017 23:22:40 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:40 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:40 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:40 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:40 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_22.jpeg
+Mon, 25 Sep 2017 23:22:42 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_23.jpeg
+Mon, 25 Sep 2017 23:22:42 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:42 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:42 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:42 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:42 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_23.jpeg
+Mon, 25 Sep 2017 23:22:44 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_24.jpeg
+Mon, 25 Sep 2017 23:22:44 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:44 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:44 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:44 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:44 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_24.jpeg
+Mon, 25 Sep 2017 23:22:46 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_25.jpeg
+Mon, 25 Sep 2017 23:22:46 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:46 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:46 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:46 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:46 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_25.jpeg
+Mon, 25 Sep 2017 23:22:48 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_26.jpeg
+Mon, 25 Sep 2017 23:22:48 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:48 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:48 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:48 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:48 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_26.jpeg
+Mon, 25 Sep 2017 23:22:50 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_27.jpeg
+Mon, 25 Sep 2017 23:22:50 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:50 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:50 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:50 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:50 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_27.jpeg
+Mon, 25 Sep 2017 23:22:52 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_28.jpeg
+Mon, 25 Sep 2017 23:22:52 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:52 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:52 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:52 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:52 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_28.jpeg
+Mon, 25 Sep 2017 23:22:54 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_29.jpeg
+Mon, 25 Sep 2017 23:22:54 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:54 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:54 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:54 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:54 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_29.jpeg
+Mon, 25 Sep 2017 23:22:55 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352921_30.jpeg
+Mon, 25 Sep 2017 23:22:55 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:22:55 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:22:56 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:22:56 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:22:56 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352921_30.jpeg
+Mon, 25 Sep 2017 23:22:58 crontab.py[line:69] 334 INFO SUCCEED pid is: 370 | stream id is 20
+Mon, 25 Sep 2017 23:22:58 crontab.py[line:89] 334 DEBUG SUCCESS online process
+Mon, 25 Sep 2017 23:22:58 crontab.py[line:104] 334 DEBUG epoch 1506352921 is over -----------------------------------------
+Mon, 25 Sep 2017 23:23:01 connectionpool.py[line:824] 492 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:01 connectionpool.py[line:396] 492 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:01 crontab.py[line:58] 492 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/online/20/1506352981_%d.jpeg
+Mon, 25 Sep 2017 23:23:02 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_1.jpeg
+Mon, 25 Sep 2017 23:23:02 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:02 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:02 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_2.jpeg
+Mon, 25 Sep 2017 23:23:02 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:02 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_1.jpeg
+Mon, 25 Sep 2017 23:23:02 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_3.jpeg
+Mon, 25 Sep 2017 23:23:02 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:02 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_2.jpeg
+Mon, 25 Sep 2017 23:23:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_3.jpeg
+Mon, 25 Sep 2017 23:23:04 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_4.jpeg
+Mon, 25 Sep 2017 23:23:04 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:04 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:04 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:04 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:04 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_4.jpeg
+Mon, 25 Sep 2017 23:23:06 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_5.jpeg
+Mon, 25 Sep 2017 23:23:06 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:06 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:06 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:06 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:06 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_5.jpeg
+Mon, 25 Sep 2017 23:23:08 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_6.jpeg
+Mon, 25 Sep 2017 23:23:08 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:08 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:08 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:08 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:08 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_6.jpeg
+Mon, 25 Sep 2017 23:23:10 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_7.jpeg
+Mon, 25 Sep 2017 23:23:10 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:10 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:10 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:10 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:10 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_7.jpeg
+Mon, 25 Sep 2017 23:23:12 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_8.jpeg
+Mon, 25 Sep 2017 23:23:12 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:12 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:12 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:12 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:12 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_8.jpeg
+Mon, 25 Sep 2017 23:23:13 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_9.jpeg
+Mon, 25 Sep 2017 23:23:13 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:13 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:14 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:14 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:14 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_9.jpeg
+Mon, 25 Sep 2017 23:23:15 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_10.jpeg
+Mon, 25 Sep 2017 23:23:15 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:15 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:15 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:15 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:15 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_10.jpeg
+Mon, 25 Sep 2017 23:23:17 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_11.jpeg
+Mon, 25 Sep 2017 23:23:17 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:17 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:17 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:17 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:17 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_11.jpeg
+Mon, 25 Sep 2017 23:23:19 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_12.jpeg
+Mon, 25 Sep 2017 23:23:19 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:19 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:19 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:19 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:19 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_12.jpeg
+Mon, 25 Sep 2017 23:23:21 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_13.jpeg
+Mon, 25 Sep 2017 23:23:21 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:21 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:21 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:21 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:21 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_13.jpeg
+Mon, 25 Sep 2017 23:23:23 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_14.jpeg
+Mon, 25 Sep 2017 23:23:23 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:23 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:24 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:24 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:24 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_14.jpeg
+Mon, 25 Sep 2017 23:23:25 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_15.jpeg
+Mon, 25 Sep 2017 23:23:25 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:25 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:26 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:26 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:26 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_15.jpeg
+Mon, 25 Sep 2017 23:23:28 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_16.jpeg
+Mon, 25 Sep 2017 23:23:28 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:28 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:28 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:28 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:28 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_16.jpeg
+Mon, 25 Sep 2017 23:23:29 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_17.jpeg
+Mon, 25 Sep 2017 23:23:29 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:29 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:30 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:30 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:30 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_17.jpeg
+Mon, 25 Sep 2017 23:23:31 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_18.jpeg
+Mon, 25 Sep 2017 23:23:31 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:31 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:32 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:32 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:32 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_18.jpeg
+Mon, 25 Sep 2017 23:23:33 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_19.jpeg
+Mon, 25 Sep 2017 23:23:33 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:33 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:34 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:34 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:34 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_19.jpeg
+Mon, 25 Sep 2017 23:23:35 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_20.jpeg
+Mon, 25 Sep 2017 23:23:35 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:35 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:36 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:36 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:36 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_20.jpeg
+Mon, 25 Sep 2017 23:23:38 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_21.jpeg
+Mon, 25 Sep 2017 23:23:38 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:38 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:38 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:38 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:38 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_21.jpeg
+Mon, 25 Sep 2017 23:23:39 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_22.jpeg
+Mon, 25 Sep 2017 23:23:39 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:39 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:39 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:39 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:39 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_22.jpeg
+Mon, 25 Sep 2017 23:23:41 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_23.jpeg
+Mon, 25 Sep 2017 23:23:41 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:41 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:41 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:41 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:41 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_23.jpeg
+Mon, 25 Sep 2017 23:23:43 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_24.jpeg
+Mon, 25 Sep 2017 23:23:43 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:43 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:44 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:44 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:44 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_24.jpeg
+Mon, 25 Sep 2017 23:23:45 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_25.jpeg
+Mon, 25 Sep 2017 23:23:45 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:45 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:46 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:46 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:46 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_25.jpeg
+Mon, 25 Sep 2017 23:23:47 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_26.jpeg
+Mon, 25 Sep 2017 23:23:47 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:47 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:48 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:48 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:48 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_26.jpeg
+Mon, 25 Sep 2017 23:23:49 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_27.jpeg
+Mon, 25 Sep 2017 23:23:49 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:49 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:49 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:50 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:50 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_27.jpeg
+Mon, 25 Sep 2017 23:23:51 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_28.jpeg
+Mon, 25 Sep 2017 23:23:51 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:51 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:51 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:52 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:52 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_28.jpeg
+Mon, 25 Sep 2017 23:23:53 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_29.jpeg
+Mon, 25 Sep 2017 23:23:53 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:53 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:53 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:53 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:53 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_29.jpeg
+Mon, 25 Sep 2017 23:23:56 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506352981_30.jpeg
+Mon, 25 Sep 2017 23:23:56 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:23:56 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:23:56 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:23:56 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:23:56 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352981_30.jpeg
+Mon, 25 Sep 2017 23:23:57 crontab.py[line:69] 492 INFO SUCCEED pid is: 524 | stream id is 20
+Mon, 25 Sep 2017 23:23:57 crontab.py[line:89] 492 DEBUG SUCCESS online process
+Mon, 25 Sep 2017 23:23:57 crontab.py[line:104] 492 DEBUG epoch 1506352981 is over -----------------------------------------
+Mon, 25 Sep 2017 23:24:01 connectionpool.py[line:824] 685 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:01 connectionpool.py[line:396] 685 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:01 crontab.py[line:58] 685 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/online/20/1506353041_%d.jpeg
+Mon, 25 Sep 2017 23:24:01 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_1.jpeg
+Mon, 25 Sep 2017 23:24:01 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:01 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:02 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_2.jpeg
+Mon, 25 Sep 2017 23:24:02 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:02 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_1.jpeg
+Mon, 25 Sep 2017 23:24:02 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_3.jpeg
+Mon, 25 Sep 2017 23:24:02 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:02 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_2.jpeg
+Mon, 25 Sep 2017 23:24:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_3.jpeg
+Mon, 25 Sep 2017 23:24:04 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_4.jpeg
+Mon, 25 Sep 2017 23:24:04 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:04 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:04 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:04 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:04 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_4.jpeg
+Mon, 25 Sep 2017 23:24:05 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_5.jpeg
+Mon, 25 Sep 2017 23:24:05 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:05 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:06 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:06 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:06 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_5.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_10.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_11.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_12.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_13.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_14.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_15.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_16.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_17.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_18.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_19.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_1.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_20.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_21.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_22.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_23.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_24.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_25.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_26.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_27.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_28.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_29.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_2.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_30.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_3.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_4.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_5.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_6.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_7.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_8.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352502_9.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_10.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_11.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_12.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_13.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_14.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_15.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_16.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_17.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_18.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_19.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_1.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_20.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_21.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_22.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_23.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_24.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_25.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_26.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_27.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_28.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_29.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_2.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_30.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_3.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_4.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_5.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_6.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_7.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_8.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352622_9.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_10.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_11.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_12.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_13.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_14.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_15.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_16.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_17.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_18.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_19.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_1.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_20.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_21.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_22.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_23.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_24.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_25.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_26.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_27.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_28.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_29.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_2.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_30.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_3.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_4.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_5.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_6.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_7.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_8.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352742_9.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_10.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_11.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_12.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_13.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_14.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_15.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_16.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_17.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_18.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_19.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_1.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_20.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_21.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_22.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_23.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_24.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_25.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_26.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_27.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_28.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_29.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_2.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_30.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_3.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_4.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_5.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_6.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_7.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_8.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352801_9.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_10.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_11.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_12.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_13.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_14.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_15.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_16.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_17.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_18.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_19.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_1.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_20.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_21.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_22.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_23.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_24.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_25.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_26.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_27.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_28.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_2.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_3.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_4.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_5.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_6.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_7.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_8.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506352862_9.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_6.jpeg
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:07 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:07 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:07 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:07 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_6.jpeg
+Mon, 25 Sep 2017 23:24:09 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_7.jpeg
+Mon, 25 Sep 2017 23:24:09 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:09 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:09 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:09 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:09 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_7.jpeg
+Mon, 25 Sep 2017 23:24:11 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_8.jpeg
+Mon, 25 Sep 2017 23:24:11 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:11 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:11 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:11 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:11 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_8.jpeg
+Mon, 25 Sep 2017 23:24:13 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_9.jpeg
+Mon, 25 Sep 2017 23:24:13 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:13 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:13 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:13 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:13 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_9.jpeg
+Mon, 25 Sep 2017 23:24:15 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_10.jpeg
+Mon, 25 Sep 2017 23:24:15 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:15 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:15 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:15 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:15 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_10.jpeg
+Mon, 25 Sep 2017 23:24:17 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_11.jpeg
+Mon, 25 Sep 2017 23:24:17 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:17 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:18 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:18 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:18 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_11.jpeg
+Mon, 25 Sep 2017 23:24:19 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_12.jpeg
+Mon, 25 Sep 2017 23:24:19 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:19 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:20 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:20 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:20 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_12.jpeg
+Mon, 25 Sep 2017 23:24:21 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_13.jpeg
+Mon, 25 Sep 2017 23:24:21 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:21 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:21 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:21 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:21 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_13.jpeg
+Mon, 25 Sep 2017 23:24:23 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_14.jpeg
+Mon, 25 Sep 2017 23:24:23 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:23 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:23 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:23 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:23 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_14.jpeg
+Mon, 25 Sep 2017 23:24:25 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_15.jpeg
+Mon, 25 Sep 2017 23:24:25 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:25 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:25 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:25 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:25 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_15.jpeg
+Mon, 25 Sep 2017 23:24:27 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_16.jpeg
+Mon, 25 Sep 2017 23:24:27 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:27 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:28 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:28 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:28 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_16.jpeg
+Mon, 25 Sep 2017 23:24:29 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_17.jpeg
+Mon, 25 Sep 2017 23:24:29 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:29 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:30 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:30 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:30 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_17.jpeg
+Mon, 25 Sep 2017 23:24:31 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_18.jpeg
+Mon, 25 Sep 2017 23:24:31 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:31 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:32 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:32 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:32 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_18.jpeg
+Mon, 25 Sep 2017 23:24:33 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_19.jpeg
+Mon, 25 Sep 2017 23:24:33 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:33 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:34 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:34 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:34 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_19.jpeg
+Mon, 25 Sep 2017 23:24:35 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_20.jpeg
+Mon, 25 Sep 2017 23:24:35 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:35 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:36 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:36 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:36 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_20.jpeg
+Mon, 25 Sep 2017 23:24:37 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_21.jpeg
+Mon, 25 Sep 2017 23:24:37 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:37 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:38 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:38 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:38 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_21.jpeg
+Mon, 25 Sep 2017 23:24:39 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_22.jpeg
+Mon, 25 Sep 2017 23:24:39 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:39 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:40 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:40 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:40 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_22.jpeg
+Mon, 25 Sep 2017 23:24:42 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_23.jpeg
+Mon, 25 Sep 2017 23:24:42 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:42 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:42 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:42 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:42 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_23.jpeg
+Mon, 25 Sep 2017 23:24:44 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_24.jpeg
+Mon, 25 Sep 2017 23:24:44 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:44 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:44 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:44 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:44 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_24.jpeg
+Mon, 25 Sep 2017 23:24:46 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_25.jpeg
+Mon, 25 Sep 2017 23:24:46 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:46 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:46 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:46 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:46 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_25.jpeg
+Mon, 25 Sep 2017 23:24:47 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_26.jpeg
+Mon, 25 Sep 2017 23:24:47 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:47 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:48 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:48 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:48 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_26.jpeg
+Mon, 25 Sep 2017 23:24:49 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_27.jpeg
+Mon, 25 Sep 2017 23:24:49 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:49 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:50 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:50 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:50 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_27.jpeg
+Mon, 25 Sep 2017 23:24:51 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_28.jpeg
+Mon, 25 Sep 2017 23:24:51 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:51 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:52 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:52 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:52 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_28.jpeg
+Mon, 25 Sep 2017 23:24:53 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_29.jpeg
+Mon, 25 Sep 2017 23:24:53 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:53 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:54 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:54 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:54 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_29.jpeg
+Mon, 25 Sep 2017 23:24:55 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353041_30.jpeg
+Mon, 25 Sep 2017 23:24:55 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:24:55 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:24:56 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:24:56 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:24:56 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353041_30.jpeg
+Mon, 25 Sep 2017 23:24:57 crontab.py[line:69] 685 INFO SUCCEED pid is: 727 | stream id is 20
+Mon, 25 Sep 2017 23:24:57 crontab.py[line:89] 685 DEBUG SUCCESS online process
+Mon, 25 Sep 2017 23:24:57 crontab.py[line:104] 685 DEBUG epoch 1506353041 is over -----------------------------------------
+Mon, 25 Sep 2017 23:25:02 connectionpool.py[line:824] 840 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:02 connectionpool.py[line:396] 840 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:02 crontab.py[line:58] 840 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/online/20/1506353102_%d.jpeg
+Mon, 25 Sep 2017 23:25:03 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_1.jpeg
+Mon, 25 Sep 2017 23:25:03 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:03 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:03 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:03 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:03 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_2.jpeg
+Mon, 25 Sep 2017 23:25:03 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:03 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:03 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:03 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:03 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_3.jpeg
+Mon, 25 Sep 2017 23:25:03 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:03 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:03 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:03 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:03 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_1.jpeg
+Mon, 25 Sep 2017 23:25:03 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_2.jpeg
+Mon, 25 Sep 2017 23:25:03 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_3.jpeg
+Mon, 25 Sep 2017 23:25:03 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_4.jpeg
+Mon, 25 Sep 2017 23:25:03 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:03 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:04 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:04 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:04 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_4.jpeg
+Mon, 25 Sep 2017 23:25:05 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_5.jpeg
+Mon, 25 Sep 2017 23:25:05 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:05 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:06 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:06 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:06 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_5.jpeg
+Mon, 25 Sep 2017 23:25:07 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_6.jpeg
+Mon, 25 Sep 2017 23:25:07 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:07 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:08 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:08 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:08 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_6.jpeg
+Mon, 25 Sep 2017 23:25:09 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_7.jpeg
+Mon, 25 Sep 2017 23:25:09 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:09 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:10 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:10 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:10 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_7.jpeg
+Mon, 25 Sep 2017 23:25:12 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_8.jpeg
+Mon, 25 Sep 2017 23:25:12 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:12 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:12 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:12 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:12 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_8.jpeg
+Mon, 25 Sep 2017 23:25:13 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_9.jpeg
+Mon, 25 Sep 2017 23:25:13 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:13 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:14 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:14 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:14 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_9.jpeg
+Mon, 25 Sep 2017 23:25:16 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_10.jpeg
+Mon, 25 Sep 2017 23:25:16 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:16 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:16 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:16 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:16 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_10.jpeg
+Mon, 25 Sep 2017 23:25:18 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_11.jpeg
+Mon, 25 Sep 2017 23:25:18 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:18 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:18 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:18 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:18 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_11.jpeg
+Mon, 25 Sep 2017 23:25:19 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_12.jpeg
+Mon, 25 Sep 2017 23:25:19 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:19 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:19 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:19 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:19 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_12.jpeg
+Mon, 25 Sep 2017 23:25:21 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_13.jpeg
+Mon, 25 Sep 2017 23:25:21 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:21 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:21 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:21 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:21 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_13.jpeg
+Mon, 25 Sep 2017 23:25:23 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_14.jpeg
+Mon, 25 Sep 2017 23:25:23 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:23 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:24 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:24 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:24 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_14.jpeg
+Mon, 25 Sep 2017 23:25:26 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_15.jpeg
+Mon, 25 Sep 2017 23:25:26 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:26 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:26 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:26 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:26 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_15.jpeg
+Mon, 25 Sep 2017 23:25:27 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_16.jpeg
+Mon, 25 Sep 2017 23:25:27 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:27 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:28 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:28 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:28 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_16.jpeg
+Mon, 25 Sep 2017 23:25:30 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_17.jpeg
+Mon, 25 Sep 2017 23:25:30 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:30 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:30 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:30 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:30 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_17.jpeg
+Mon, 25 Sep 2017 23:25:32 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_18.jpeg
+Mon, 25 Sep 2017 23:25:32 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:32 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:32 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:32 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:32 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_18.jpeg
+Mon, 25 Sep 2017 23:25:33 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_19.jpeg
+Mon, 25 Sep 2017 23:25:33 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:33 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:34 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:34 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:34 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_19.jpeg
+Mon, 25 Sep 2017 23:25:36 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_20.jpeg
+Mon, 25 Sep 2017 23:25:36 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:36 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:36 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:36 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:36 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_20.jpeg
+Mon, 25 Sep 2017 23:25:37 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_21.jpeg
+Mon, 25 Sep 2017 23:25:37 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:37 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:38 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:38 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:38 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_21.jpeg
+Mon, 25 Sep 2017 23:25:40 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_22.jpeg
+Mon, 25 Sep 2017 23:25:40 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:40 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:40 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:40 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:40 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_22.jpeg
+Mon, 25 Sep 2017 23:25:42 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_23.jpeg
+Mon, 25 Sep 2017 23:25:42 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:42 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:42 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:42 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:42 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_23.jpeg
+Mon, 25 Sep 2017 23:25:44 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_24.jpeg
+Mon, 25 Sep 2017 23:25:44 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:44 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:44 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:44 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:44 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_24.jpeg
+Mon, 25 Sep 2017 23:25:46 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_25.jpeg
+Mon, 25 Sep 2017 23:25:46 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:46 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:46 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:46 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:46 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_25.jpeg
+Mon, 25 Sep 2017 23:25:47 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_26.jpeg
+Mon, 25 Sep 2017 23:25:47 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:47 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:48 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:48 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:48 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_26.jpeg
+Mon, 25 Sep 2017 23:25:49 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_27.jpeg
+Mon, 25 Sep 2017 23:25:49 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:49 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:50 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:50 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:50 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_27.jpeg
+Mon, 25 Sep 2017 23:25:51 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_28.jpeg
+Mon, 25 Sep 2017 23:25:51 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:51 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:52 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:52 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:52 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_28.jpeg
+Mon, 25 Sep 2017 23:25:53 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_29.jpeg
+Mon, 25 Sep 2017 23:25:53 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:53 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:54 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:54 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:54 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_29.jpeg
+Mon, 25 Sep 2017 23:25:55 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353102_30.jpeg
+Mon, 25 Sep 2017 23:25:55 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:25:55 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:25:55 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:25:55 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:25:55 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353102_30.jpeg
+Mon, 25 Sep 2017 23:25:58 crontab.py[line:69] 840 INFO SUCCEED pid is: 882 | stream id is 20
+Mon, 25 Sep 2017 23:25:58 crontab.py[line:89] 840 DEBUG SUCCESS online process
+Mon, 25 Sep 2017 23:25:58 crontab.py[line:104] 840 DEBUG epoch 1506353102 is over -----------------------------------------
+Mon, 25 Sep 2017 23:26:01 connectionpool.py[line:824] 955 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:01 connectionpool.py[line:396] 955 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:01 crontab.py[line:58] 955 INFO ffmpeg -probesize 327680 -i rtmp://live.hkstv.hk.lxdns.com/live/hks -y -t 60 -ss 0 -f image2 -r 0.5 /data/image/online/20/1506353161_%d.jpeg
+Mon, 25 Sep 2017 23:26:01 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_1.jpeg
+Mon, 25 Sep 2017 23:26:01 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:01 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:02 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_2.jpeg
+Mon, 25 Sep 2017 23:26:02 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:02 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_1.jpeg
+Mon, 25 Sep 2017 23:26:02 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_3.jpeg
+Mon, 25 Sep 2017 23:26:02 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:02 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:02 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:02 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_2.jpeg
+Mon, 25 Sep 2017 23:26:02 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_3.jpeg
+Mon, 25 Sep 2017 23:26:04 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_4.jpeg
+Mon, 25 Sep 2017 23:26:04 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:04 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:04 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:04 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:04 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_4.jpeg
+Mon, 25 Sep 2017 23:26:06 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_5.jpeg
+Mon, 25 Sep 2017 23:26:06 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:06 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:06 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:06 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:06 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_5.jpeg
+Mon, 25 Sep 2017 23:26:08 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_6.jpeg
+Mon, 25 Sep 2017 23:26:08 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:08 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:08 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:08 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:08 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_6.jpeg
+Mon, 25 Sep 2017 23:26:10 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_7.jpeg
+Mon, 25 Sep 2017 23:26:10 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:10 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:10 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:10 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:10 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_7.jpeg
+Mon, 25 Sep 2017 23:26:11 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_8.jpeg
+Mon, 25 Sep 2017 23:26:11 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:11 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:11 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:11 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:11 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_8.jpeg
+Mon, 25 Sep 2017 23:26:13 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_9.jpeg
+Mon, 25 Sep 2017 23:26:13 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:13 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:13 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:13 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:13 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_9.jpeg
+Mon, 25 Sep 2017 23:26:15 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_10.jpeg
+Mon, 25 Sep 2017 23:26:15 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:15 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:16 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:16 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:16 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_10.jpeg
+Mon, 25 Sep 2017 23:26:17 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_11.jpeg
+Mon, 25 Sep 2017 23:26:17 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:17 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:18 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:18 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:18 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_11.jpeg
+Mon, 25 Sep 2017 23:26:19 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_12.jpeg
+Mon, 25 Sep 2017 23:26:19 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:19 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:19 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:19 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:19 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_12.jpeg
+Mon, 25 Sep 2017 23:26:22 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_13.jpeg
+Mon, 25 Sep 2017 23:26:22 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:22 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:22 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:22 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:22 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_13.jpeg
+Mon, 25 Sep 2017 23:26:24 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_14.jpeg
+Mon, 25 Sep 2017 23:26:24 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:24 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:24 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:24 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:24 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_14.jpeg
+Mon, 25 Sep 2017 23:26:26 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_15.jpeg
+Mon, 25 Sep 2017 23:26:26 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:26 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:26 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:26 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:26 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_15.jpeg
+Mon, 25 Sep 2017 23:26:28 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_16.jpeg
+Mon, 25 Sep 2017 23:26:28 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:28 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:28 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:28 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:28 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_16.jpeg
+Mon, 25 Sep 2017 23:26:29 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_17.jpeg
+Mon, 25 Sep 2017 23:26:29 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:29 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:29 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:29 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:29 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_17.jpeg
+Mon, 25 Sep 2017 23:26:31 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_18.jpeg
+Mon, 25 Sep 2017 23:26:31 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:31 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:31 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:31 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:31 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_18.jpeg
+Mon, 25 Sep 2017 23:26:33 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_19.jpeg
+Mon, 25 Sep 2017 23:26:33 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:33 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:34 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:34 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:34 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_19.jpeg
+Mon, 25 Sep 2017 23:26:36 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_20.jpeg
+Mon, 25 Sep 2017 23:26:36 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:36 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:36 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:36 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:36 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_20.jpeg
+Mon, 25 Sep 2017 23:26:38 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_21.jpeg
+Mon, 25 Sep 2017 23:26:38 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:38 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:38 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:38 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:38 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_21.jpeg
+Mon, 25 Sep 2017 23:26:39 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_22.jpeg
+Mon, 25 Sep 2017 23:26:39 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:39 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:39 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:39 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:39 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_22.jpeg
+Mon, 25 Sep 2017 23:26:41 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_23.jpeg
+Mon, 25 Sep 2017 23:26:41 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:41 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:42 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:42 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:42 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_23.jpeg
+Mon, 25 Sep 2017 23:26:43 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_24.jpeg
+Mon, 25 Sep 2017 23:26:43 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:43 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:44 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:44 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:44 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_24.jpeg
+Mon, 25 Sep 2017 23:26:45 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_25.jpeg
+Mon, 25 Sep 2017 23:26:45 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:45 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:46 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:46 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:46 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_25.jpeg
+Mon, 25 Sep 2017 23:26:48 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_26.jpeg
+Mon, 25 Sep 2017 23:26:48 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:48 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:48 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:48 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:48 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_26.jpeg
+Mon, 25 Sep 2017 23:26:49 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_27.jpeg
+Mon, 25 Sep 2017 23:26:49 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:49 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:50 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:50 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:50 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_27.jpeg
+Mon, 25 Sep 2017 23:26:51 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_28.jpeg
+Mon, 25 Sep 2017 23:26:51 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:51 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:52 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:52 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:52 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_28.jpeg
+Mon, 25 Sep 2017 23:26:54 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_29.jpeg
+Mon, 25 Sep 2017 23:26:54 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:54 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:54 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:54 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:54 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_29.jpeg
+Mon, 25 Sep 2017 23:26:56 montor_dir.py[line:29] 32760 INFO Create event : /data/image/online/20/1506353161_30.jpeg
+Mon, 25 Sep 2017 23:26:56 montor_dir.py[line:38] 32760 INFO stream: 20 | label 1 | percent60
+Mon, 25 Sep 2017 23:26:56 connectionpool.py[line:824] 32760 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:26:56 connectionpool.py[line:396] 32760 DEBUG https://xiaosong1234.cn:443 "GET /api/streamClassifyCallBack?label=1&percent=60&stream_id=20 HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:26:56 utils.py[line:20] 32760 WARNING request res is not 1,and it is 
+Mon, 25 Sep 2017 23:26:56 montor_dir.py[line:49] 32760 INFO Delete event : /data/image/online/20/1506353161_30.jpeg
+Mon, 25 Sep 2017 23:26:57 crontab.py[line:69] 955 INFO SUCCEED pid is: 986 | stream id is 20
+Mon, 25 Sep 2017 23:26:57 crontab.py[line:89] 955 DEBUG SUCCESS online process
+Mon, 25 Sep 2017 23:26:57 crontab.py[line:104] 955 DEBUG epoch 1506353161 is over -----------------------------------------
+Mon, 25 Sep 2017 23:27:01 connectionpool.py[line:824] 1057 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:27:01 connectionpool.py[line:396] 1057 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:27:01 crontab.py[line:104] 1057 DEBUG epoch 1506353221 is over -----------------------------------------
+Mon, 25 Sep 2017 23:28:02 connectionpool.py[line:824] 1145 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:28:02 connectionpool.py[line:396] 1145 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:28:02 crontab.py[line:104] 1145 DEBUG epoch 1506353282 is over -----------------------------------------
+Mon, 25 Sep 2017 23:29:01 connectionpool.py[line:824] 1267 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:29:01 connectionpool.py[line:396] 1267 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:29:01 crontab.py[line:104] 1267 DEBUG epoch 1506353341 is over -----------------------------------------
+Mon, 25 Sep 2017 23:30:02 connectionpool.py[line:824] 1365 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:30:02 connectionpool.py[line:396] 1365 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:30:02 crontab.py[line:104] 1365 DEBUG epoch 1506353402 is over -----------------------------------------
+Mon, 25 Sep 2017 23:31:01 connectionpool.py[line:824] 1458 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:31:02 connectionpool.py[line:396] 1458 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:31:02 crontab.py[line:104] 1458 DEBUG epoch 1506353462 is over -----------------------------------------
+Mon, 25 Sep 2017 23:32:01 connectionpool.py[line:824] 1552 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:32:01 connectionpool.py[line:396] 1552 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:32:01 crontab.py[line:104] 1552 DEBUG epoch 1506353521 is over -----------------------------------------
+Mon, 25 Sep 2017 23:35:02 connectionpool.py[line:824] 2174 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:35:03 connectionpool.py[line:396] 2174 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:35:03 crontab.py[line:104] 2174 DEBUG epoch 1506353703 is over -----------------------------------------
+Mon, 25 Sep 2017 23:36:01 connectionpool.py[line:824] 2459 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:36:01 connectionpool.py[line:396] 2459 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:36:01 crontab.py[line:104] 2459 DEBUG epoch 1506353761 is over -----------------------------------------
+Mon, 25 Sep 2017 23:37:02 connectionpool.py[line:824] 2562 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:37:02 connectionpool.py[line:396] 2562 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:37:02 crontab.py[line:104] 2562 DEBUG epoch 1506353822 is over -----------------------------------------
+Mon, 25 Sep 2017 23:38:01 connectionpool.py[line:824] 2669 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:38:01 connectionpool.py[line:396] 2669 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:38:01 crontab.py[line:104] 2669 DEBUG epoch 1506353881 is over -----------------------------------------
+Mon, 25 Sep 2017 23:39:02 connectionpool.py[line:824] 2753 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:39:02 connectionpool.py[line:396] 2753 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:39:02 crontab.py[line:104] 2753 DEBUG epoch 1506353942 is over -----------------------------------------
+Mon, 25 Sep 2017 23:40:01 connectionpool.py[line:824] 2853 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:40:02 connectionpool.py[line:396] 2853 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:40:02 crontab.py[line:104] 2853 DEBUG epoch 1506354002 is over -----------------------------------------
+Mon, 25 Sep 2017 23:41:02 connectionpool.py[line:824] 2948 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:41:02 connectionpool.py[line:396] 2948 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:41:02 crontab.py[line:104] 2948 DEBUG epoch 1506354062 is over -----------------------------------------
+Mon, 25 Sep 2017 23:42:01 connectionpool.py[line:824] 3039 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:42:01 connectionpool.py[line:396] 3039 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:42:01 crontab.py[line:104] 3039 DEBUG epoch 1506354121 is over -----------------------------------------
+Mon, 25 Sep 2017 23:43:02 connectionpool.py[line:824] 3133 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:43:02 connectionpool.py[line:396] 3133 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:43:02 crontab.py[line:104] 3133 DEBUG epoch 1506354182 is over -----------------------------------------
+Mon, 25 Sep 2017 23:44:01 connectionpool.py[line:824] 3227 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:44:01 connectionpool.py[line:396] 3227 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:44:02 crontab.py[line:104] 3227 DEBUG epoch 1506354242 is over -----------------------------------------
+Mon, 25 Sep 2017 23:45:01 connectionpool.py[line:824] 3319 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:45:01 connectionpool.py[line:396] 3319 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:45:01 crontab.py[line:104] 3319 DEBUG epoch 1506354301 is over -----------------------------------------
+Mon, 25 Sep 2017 23:46:02 connectionpool.py[line:824] 3413 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:46:02 connectionpool.py[line:396] 3413 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:46:02 crontab.py[line:104] 3413 DEBUG epoch 1506354362 is over -----------------------------------------
+Mon, 25 Sep 2017 23:47:01 connectionpool.py[line:824] 3507 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:47:01 connectionpool.py[line:396] 3507 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:47:01 crontab.py[line:104] 3507 DEBUG epoch 1506354421 is over -----------------------------------------
+Mon, 25 Sep 2017 23:48:02 connectionpool.py[line:824] 3600 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:48:02 connectionpool.py[line:396] 3600 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:48:02 crontab.py[line:104] 3600 DEBUG epoch 1506354482 is over -----------------------------------------
+Mon, 25 Sep 2017 23:49:02 connectionpool.py[line:824] 3689 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:49:02 connectionpool.py[line:396] 3689 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:49:02 crontab.py[line:104] 3689 DEBUG epoch 1506354542 is over -----------------------------------------
+Mon, 25 Sep 2017 23:50:01 connectionpool.py[line:824] 3787 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:50:01 connectionpool.py[line:396] 3787 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:50:01 crontab.py[line:104] 3787 DEBUG epoch 1506354601 is over -----------------------------------------
+Mon, 25 Sep 2017 23:51:02 connectionpool.py[line:824] 3880 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:51:02 connectionpool.py[line:396] 3880 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:51:02 crontab.py[line:104] 3880 DEBUG epoch 1506354662 is over -----------------------------------------
+Mon, 25 Sep 2017 23:52:01 connectionpool.py[line:824] 3973 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:52:02 connectionpool.py[line:396] 3973 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:52:02 crontab.py[line:104] 3973 DEBUG epoch 1506354722 is over -----------------------------------------
+Mon, 25 Sep 2017 23:53:01 connectionpool.py[line:824] 4069 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:53:01 connectionpool.py[line:396] 4069 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:53:01 crontab.py[line:104] 4069 DEBUG epoch 1506354781 is over -----------------------------------------
+Mon, 25 Sep 2017 23:54:02 connectionpool.py[line:824] 4162 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:54:02 connectionpool.py[line:396] 4162 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:54:02 crontab.py[line:104] 4162 DEBUG epoch 1506354842 is over -----------------------------------------
+Mon, 25 Sep 2017 23:55:01 connectionpool.py[line:824] 4247 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:55:01 connectionpool.py[line:396] 4247 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:55:01 crontab.py[line:104] 4247 DEBUG epoch 1506354901 is over -----------------------------------------
+Mon, 25 Sep 2017 23:56:02 connectionpool.py[line:824] 4348 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:56:02 connectionpool.py[line:396] 4348 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:56:02 crontab.py[line:104] 4348 DEBUG epoch 1506354962 is over -----------------------------------------
+Mon, 25 Sep 2017 23:57:02 connectionpool.py[line:824] 4441 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:57:02 connectionpool.py[line:396] 4441 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:57:02 crontab.py[line:104] 4441 DEBUG epoch 1506355022 is over -----------------------------------------
+Mon, 25 Sep 2017 23:58:01 connectionpool.py[line:824] 4533 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:58:01 connectionpool.py[line:396] 4533 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:58:01 crontab.py[line:104] 4533 DEBUG epoch 1506355081 is over -----------------------------------------
+Mon, 25 Sep 2017 23:59:02 connectionpool.py[line:824] 4625 DEBUG Starting new HTTPS connection (1): xiaosong1234.cn
+Mon, 25 Sep 2017 23:59:02 connectionpool.py[line:396] 4625 DEBUG https://xiaosong1234.cn:443 "GET /api/getStreamList HTTP/1.1" 200 None
+Mon, 25 Sep 2017 23:59:02 crontab.py[line:104] 4625 DEBUG epoch 1506355142 is over -----------------------------------------

@@ -1,0 +1,2 @@
+Sat, 23 Sep 2017 22:58:09 test.py[line:24] 9939 INFO CREATE event : /tmp/test1
+Sat, 23 Sep 2017 22:58:11 test.py[line:27] 9939 INFO Delete event : /tmp/test1

@@ -1,0 +1,329 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : 腾讯云MYSQL
+Source Server Version : 50505
+Source Host           : 123.206.65.137:3306
+Source Database       : laravel
+
+Target Server Type    : MYSQL
+Target Server Version : 50505
+File Encoding         : 65001
+
+Date: 2017-09-28 18:00:35
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for `intervals`
+-- ----------------------------
+DROP TABLE IF EXISTS `intervals`;
+CREATE TABLE `intervals` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `time` int(10) unsigned NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of intervals
+-- ----------------------------
+INSERT INTO `intervals` VALUES ('1', '2', null, null);
+INSERT INTO `intervals` VALUES ('2', '5', null, null);
+INSERT INTO `intervals` VALUES ('3', '10', null, null);
+INSERT INTO `intervals` VALUES ('4', '30', null, null);
+
+-- ----------------------------
+-- Table structure for `jobs`
+-- ----------------------------
+DROP TABLE IF EXISTS `jobs`;
+CREATE TABLE `jobs` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `queue` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `payload` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `attempts` tinyint(3) unsigned NOT NULL,
+  `reserved_at` int(10) unsigned DEFAULT NULL,
+  `available_at` int(10) unsigned NOT NULL,
+  `created_at` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `jobs_queue_reserved_at_index` (`queue`,`reserved_at`)
+) ENGINE=InnoDB AUTO_INCREMENT=45 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of jobs
+-- ----------------------------
+INSERT INTO `jobs` VALUES ('1', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:22:\\\"App\\\\Notifications\\\\Test\\\":6:{s:8:\\\"\\u0000*\\u0000title\\\";s:18:\\\"\\u8fd9\\u662f\\u901a\\u77e5\\u6807\\u9898\\\";s:10:\\\"\\u0000*\\u0000content\\\";s:18:\\\"\\u8fd9\\u662f\\u901a\\u77e5\\u5185\\u5bb9\\\";s:2:\\\"id\\\";s:36:\\\"28ab7598-4c1e-44a9-93a6-53fa1231ebda\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:2:{s:5:\\\"title\\\";s:18:\\\"\\u8fd9\\u662f\\u901a\\u77e5\\u6807\\u9898\\\";s:7:\\\"content\\\";s:18:\\\"\\u8fd9\\u662f\\u901a\\u77e5\\u5185\\u5bb9\\\";}}\"}}', '0', null, '1506502137', '1506502137');
+INSERT INTO `jobs` VALUES ('2', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:22:\\\"App\\\\Notifications\\\\Test\\\":7:{s:7:\\\"\\u0000*\\u0000type\\\";N;s:8:\\\"\\u0000*\\u0000title\\\";s:18:\\\"\\u8fd9\\u662f\\u901a\\u77e5\\u6807\\u9898\\\";s:10:\\\"\\u0000*\\u0000content\\\";s:18:\\\"\\u8fd9\\u662f\\u901a\\u77e5\\u5185\\u5bb9\\\";s:2:\\\"id\\\";s:36:\\\"5ac92768-feec-47ae-88c4-4806c15ac9b0\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:4:\\\"type\\\";N;s:5:\\\"title\\\";s:18:\\\"\\u8fd9\\u662f\\u901a\\u77e5\\u6807\\u9898\\\";s:7:\\\"content\\\";s:18:\\\"\\u8fd9\\u662f\\u901a\\u77e5\\u5185\\u5bb9\\\";}}\"}}', '0', null, '1506504927', '1506504927');
+INSERT INTO `jobs` VALUES ('3', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\StreamError\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";i:1;s:9:\\\"\\u0000*\\u0000status\\\";i:300;s:6:\\\"\\u0000*\\u0000msg\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";s:2:\\\"id\\\";s:36:\\\"d71ad283-3ad1-4b1b-a726-1f0ebbbf036a\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";i:1;s:3:\\\"msg\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";s:6:\\\"status\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";}}\"}}', '0', null, '1506559083', '1506559083');
+INSERT INTO `jobs` VALUES ('4', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\ServerError\\\":6:{s:2:\\\"id\\\";s:36:\\\"98ef057f-b74a-4d3b-8747-e841c3df8c70\\\";s:6:\\\"\\u0000*\\u0000msg\\\";s:6:\\\"\\u9519\\u8bef\\\";s:5:\\\"\\u0000*\\u0000ip\\\";s:14:\\\"123.206.65.137\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:2:{s:2:\\\"ip\\\";s:14:\\\"123.206.65.137\\\";s:3:\\\"msg\\\";s:6:\\\"\\u9519\\u8bef\\\";}}\"}}', '0', null, '1506560064', '1506560064');
+INSERT INTO `jobs` VALUES ('5', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"1\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"8ca8505b-fff1-454e-9cc1-edbba3039235\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"1\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506560863', '1506560863');
+INSERT INTO `jobs` VALUES ('6', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"1\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"8b357552-41ab-4c4e-a739-abd7d20c8a67\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"1\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506561914', '1506561914');
+INSERT INTO `jobs` VALUES ('7', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\StreamError\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";i:1;s:9:\\\"\\u0000*\\u0000status\\\";i:300;s:6:\\\"\\u0000*\\u0000msg\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";s:2:\\\"id\\\";s:36:\\\"6e13f143-5eba-487c-9952-3897ccd028b3\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";i:1;s:3:\\\"msg\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";s:6:\\\"status\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";}}\"}}', '0', null, '1506561928', '1506561928');
+INSERT INTO `jobs` VALUES ('8', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\StreamError\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";i:1;s:9:\\\"\\u0000*\\u0000status\\\";i:300;s:6:\\\"\\u0000*\\u0000msg\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";s:2:\\\"id\\\";s:36:\\\"5485d8f8-64cf-4f66-906b-ac596c02f1e1\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";i:1;s:3:\\\"msg\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";s:6:\\\"status\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";}}\"}}', '0', null, '1506570541', '1506570541');
+INSERT INTO `jobs` VALUES ('9', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\ServerError\\\":6:{s:2:\\\"id\\\";s:36:\\\"6d507e95-da1a-410f-9e99-88765c31d1b4\\\";s:6:\\\"\\u0000*\\u0000msg\\\";s:6:\\\"\\u9519\\u8bef\\\";s:5:\\\"\\u0000*\\u0000ip\\\";s:14:\\\"123.206.65.137\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:2:{s:2:\\\"ip\\\";s:14:\\\"123.206.65.137\\\";s:3:\\\"msg\\\";s:6:\\\"\\u9519\\u8bef\\\";}}\"}}', '0', null, '1506570541', '1506570541');
+INSERT INTO `jobs` VALUES ('10', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"1\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"af0aba6a-497c-4805-b7e3-24606dd811d4\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"1\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570541', '1506570541');
+INSERT INTO `jobs` VALUES ('11', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"2\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"58beebcd-c4ea-4115-99c4-bebd5c0c379f\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"2\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570541', '1506570541');
+INSERT INTO `jobs` VALUES ('12', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"3\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"94e2be78-4072-4972-92b4-a1ecae3f1dc0\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"3\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570542', '1506570542');
+INSERT INTO `jobs` VALUES ('13', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"1\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"dc0faa0f-0c88-4964-99f2-1e898d59dfa7\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"1\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570782', '1506570782');
+INSERT INTO `jobs` VALUES ('14', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"2\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"b47efff3-238c-45da-81c1-e4f2cdb73cd2\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"2\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570782', '1506570782');
+INSERT INTO `jobs` VALUES ('15', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"3\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"b1bbc9c2-538f-4b77-9ab2-828f388f01a1\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"3\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570782', '1506570782');
+INSERT INTO `jobs` VALUES ('16', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"4\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"2825ddc9-e913-4dd5-a4ba-f2a087d3770c\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"4\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570782', '1506570782');
+INSERT INTO `jobs` VALUES ('17', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"5\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"733c3c6d-e47f-4410-b624-c857de91c247\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"5\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570782', '1506570782');
+INSERT INTO `jobs` VALUES ('18', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"6\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"47f5f545-89df-4421-afb5-6c19524692d9\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"6\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570782', '1506570782');
+INSERT INTO `jobs` VALUES ('19', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\StreamError\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";i:1;s:9:\\\"\\u0000*\\u0000status\\\";i:300;s:6:\\\"\\u0000*\\u0000msg\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";s:2:\\\"id\\\";s:36:\\\"8d8ec58f-757b-4e0b-a569-cf14d6eb1288\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";i:1;s:3:\\\"msg\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";s:6:\\\"status\\\";s:12:\\\"\\u6d4b\\u8bd5\\u9519\\u8bef\\\";}}\"}}', '0', null, '1506570797', '1506570797');
+INSERT INTO `jobs` VALUES ('20', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\ServerError\\\":6:{s:2:\\\"id\\\";s:36:\\\"400bba5c-5db8-4568-a854-bd58e63ccf2e\\\";s:6:\\\"\\u0000*\\u0000msg\\\";s:6:\\\"\\u9519\\u8bef\\\";s:5:\\\"\\u0000*\\u0000ip\\\";s:14:\\\"123.206.65.137\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:2:{s:2:\\\"ip\\\";s:14:\\\"123.206.65.137\\\";s:3:\\\"msg\\\";s:6:\\\"\\u9519\\u8bef\\\";}}\"}}', '0', null, '1506570798', '1506570798');
+INSERT INTO `jobs` VALUES ('21', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"1\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"6657bd2f-c1bb-4351-845c-a509da13ae81\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"1\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570798', '1506570798');
+INSERT INTO `jobs` VALUES ('22', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"2\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"aef58e21-3c83-4aa6-8d35-640defcd50e1\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"2\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570798', '1506570798');
+INSERT INTO `jobs` VALUES ('23', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"3\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"f23ed845-58a1-47ec-912b-6cdf7f4e759f\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"3\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570798', '1506570798');
+INSERT INTO `jobs` VALUES ('24', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"4\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"56b541de-cbc8-4984-a682-a804efb7a372\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"4\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570798', '1506570798');
+INSERT INTO `jobs` VALUES ('25', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"5\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"eb727459-c062-4506-9ec5-973066206489\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"5\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570798', '1506570798');
+INSERT INTO `jobs` VALUES ('26', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"6\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"ce85f855-ad5d-4243-a99b-06c392423b0c\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"6\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570798', '1506570798');
+INSERT INTO `jobs` VALUES ('27', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"1\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"dac35722-ea6b-4453-9e7a-509199a61df5\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"1\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570826', '1506570826');
+INSERT INTO `jobs` VALUES ('28', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"2\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"2082cc17-6456-49d9-a042-b0f92f27ee64\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"2\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570826', '1506570826');
+INSERT INTO `jobs` VALUES ('29', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"3\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"c28dd4ce-1f6d-4da1-992d-81d36accf7c7\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"3\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570826', '1506570826');
+INSERT INTO `jobs` VALUES ('30', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"4\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"c58b9d3d-c503-4625-890e-075a7649d570\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"4\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570826', '1506570826');
+INSERT INTO `jobs` VALUES ('31', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"5\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"5b5738ac-bab9-4255-8b9b-516cfa55c81a\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"5\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570826', '1506570826');
+INSERT INTO `jobs` VALUES ('32', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";s:1:\\\"6\\\";s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"28785e32-8a53-4a25-8a0c-3ae66c14ae49\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";s:1:\\\"6\\\";s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506570827', '1506570827');
+INSERT INTO `jobs` VALUES ('33', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";i:40;s:13:\\\"\\u0000*\\u0000per_status\\\";i:0;s:12:\\\"\\u0000*\\u0000to_status\\\";i:100;s:2:\\\"id\\\";s:36:\\\"0a8aae0c-a4d2-4eea-bee8-0909fa703787\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";i:40;s:10:\\\"per_status\\\";i:0;s:9:\\\"to_status\\\";i:100;}}\"}}', '0', null, '1506586981', '1506586981');
+INSERT INTO `jobs` VALUES ('34', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";i:41;s:13:\\\"\\u0000*\\u0000per_status\\\";i:0;s:12:\\\"\\u0000*\\u0000to_status\\\";i:100;s:2:\\\"id\\\";s:36:\\\"d3c57972-ae97-45a5-8c99-382fdb63bb21\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";i:41;s:10:\\\"per_status\\\";i:0;s:9:\\\"to_status\\\";i:100;}}\"}}', '0', null, '1506587101', '1506587101');
+INSERT INTO `jobs` VALUES ('35', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\ServerError\\\":6:{s:2:\\\"id\\\";s:36:\\\"09b18099-cc66-489d-8c0f-ab79ad9c6f53\\\";s:6:\\\"\\u0000*\\u0000msg\\\";s:17:\\\"Server breakdown!\\\";s:5:\\\"\\u0000*\\u0000ip\\\";s:14:\\\"123.206.65.137\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:2:{s:2:\\\"ip\\\";s:14:\\\"123.206.65.137\\\";s:3:\\\"msg\\\";s:17:\\\"Server breakdown!\\\";}}\"}}', '0', null, '1506587342', '1506587342');
+INSERT INTO `jobs` VALUES ('36', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";i:42;s:13:\\\"\\u0000*\\u0000per_status\\\";i:0;s:12:\\\"\\u0000*\\u0000to_status\\\";i:100;s:2:\\\"id\\\";s:36:\\\"11401c00-edb6-4215-9286-d07a25f481ed\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";i:42;s:10:\\\"per_status\\\";i:0;s:9:\\\"to_status\\\";i:100;}}\"}}', '0', null, '1506587761', '1506587761');
+INSERT INTO `jobs` VALUES ('37', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\ServerError\\\":6:{s:2:\\\"id\\\";s:36:\\\"0bb3024c-692d-42e1-937b-4010347819c5\\\";s:6:\\\"\\u0000*\\u0000msg\\\";s:17:\\\"Server breakdown!\\\";s:5:\\\"\\u0000*\\u0000ip\\\";s:14:\\\"123.206.65.137\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:2:{s:2:\\\"ip\\\";s:14:\\\"123.206.65.137\\\";s:3:\\\"msg\\\";s:17:\\\"Server breakdown!\\\";}}\"}}', '0', null, '1506588002', '1506588002');
+INSERT INTO `jobs` VALUES ('38', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";i:42;s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"8b902d8f-dabe-4636-908c-d9b4a46a0798\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";i:42;s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506588781', '1506588781');
+INSERT INTO `jobs` VALUES ('39', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\ServerError\\\":6:{s:2:\\\"id\\\";s:36:\\\"750b262e-e68b-4dcc-8f49-b4a5f9fc0b5a\\\";s:6:\\\"\\u0000*\\u0000msg\\\";s:17:\\\"Server breakdown!\\\";s:5:\\\"\\u0000*\\u0000ip\\\";s:14:\\\"123.206.65.137\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:2:{s:2:\\\"ip\\\";s:14:\\\"123.206.65.137\\\";s:3:\\\"msg\\\";s:17:\\\"Server breakdown!\\\";}}\"}}', '0', null, '1506589262', '1506589262');
+INSERT INTO `jobs` VALUES ('40', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\ServerError\\\":6:{s:2:\\\"id\\\";s:36:\\\"cf7f6524-0781-42d3-880c-e526cce73f85\\\";s:6:\\\"\\u0000*\\u0000msg\\\";s:16:\\\"Server off Line!\\\";s:5:\\\"\\u0000*\\u0000ip\\\";s:14:\\\"123.206.65.137\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:2:{s:2:\\\"ip\\\";s:14:\\\"123.206.65.137\\\";s:3:\\\"msg\\\";s:16:\\\"Server off Line!\\\";}}\"}}', '0', null, '1506591362', '1506591362');
+INSERT INTO `jobs` VALUES ('41', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\ServerError\\\":6:{s:2:\\\"id\\\";s:36:\\\"01b34053-9c11-4cdc-bb46-84d62d763368\\\";s:6:\\\"\\u0000*\\u0000msg\\\";s:56:\\\"script run error!  error is: name \'confi\' is not defined\\\";s:5:\\\"\\u0000*\\u0000ip\\\";s:14:\\\"123.206.65.137\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:2:{s:2:\\\"ip\\\";s:14:\\\"123.206.65.137\\\";s:3:\\\"msg\\\";s:56:\\\"script run error!  error is: name \'confi\' is not defined\\\";}}\"}}', '0', null, '1506592001', '1506592001');
+INSERT INTO `jobs` VALUES ('42', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:29:\\\"App\\\\Notifications\\\\ServerError\\\":6:{s:2:\\\"id\\\";s:36:\\\"09f96168-2312-438e-a15c-2ae527ef9eeb\\\";s:6:\\\"\\u0000*\\u0000msg\\\";s:90:\\\"script run error!  error is: module \'config\' has no attribute \'SERVER_STATUS_CALLBACK_ADD\'\\\";s:5:\\\"\\u0000*\\u0000ip\\\";s:14:\\\"123.206.65.137\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:2:{s:2:\\\"ip\\\";s:14:\\\"123.206.65.137\\\";s:3:\\\"msg\\\";s:90:\\\"script run error!  error is: module \'config\' has no attribute \'SERVER_STATUS_CALLBACK_ADD\'\\\";}}\"}}', '0', null, '1506592104', '1506592104');
+INSERT INTO `jobs` VALUES ('43', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";i:43;s:13:\\\"\\u0000*\\u0000per_status\\\";i:0;s:12:\\\"\\u0000*\\u0000to_status\\\";i:100;s:2:\\\"id\\\";s:36:\\\"2646f6ed-7346-4d5d-b6d4-e61053b000b8\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";i:43;s:10:\\\"per_status\\\";i:0;s:9:\\\"to_status\\\";i:100;}}\"}}', '0', null, '1506592502', '1506592502');
+INSERT INTO `jobs` VALUES ('44', 'default', '{\"job\":\"Illuminate\\\\Broadcasting\\\\BroadcastEvent\",\"data\":{\"event\":\"O:60:\\\"Illuminate\\\\Notifications\\\\Events\\\\BroadcastNotificationCreated\\\":3:{s:10:\\\"notifiable\\\";O:45:\\\"Illuminate\\\\Contracts\\\\Database\\\\ModelIdentifier\\\":2:{s:5:\\\"class\\\";s:8:\\\"App\\\\User\\\";s:2:\\\"id\\\";i:1;}s:12:\\\"notification\\\";O:36:\\\"App\\\\Notifications\\\\StreamStatusChange\\\":7:{s:12:\\\"\\u0000*\\u0000stream_id\\\";i:43;s:13:\\\"\\u0000*\\u0000per_status\\\";i:100;s:12:\\\"\\u0000*\\u0000to_status\\\";i:150;s:2:\\\"id\\\";s:36:\\\"2f01ed99-3dec-4d91-953e-b4da51029dae\\\";s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:5:\\\"delay\\\";N;}s:4:\\\"data\\\";a:3:{s:9:\\\"stream_id\\\";i:43;s:10:\\\"per_status\\\";i:100;s:9:\\\"to_status\\\";i:150;}}\"}}', '0', null, '1506592681', '1506592681');
+
+-- ----------------------------
+-- Table structure for `migrations`
+-- ----------------------------
+DROP TABLE IF EXISTS `migrations`;
+CREATE TABLE `migrations` (
+  `migration` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `batch` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of migrations
+-- ----------------------------
+INSERT INTO `migrations` VALUES ('2014_10_12_000000_create_users_table', '1');
+INSERT INTO `migrations` VALUES ('2014_10_12_100000_create_password_resets_table', '1');
+INSERT INTO `migrations` VALUES ('2017_09_07_133107_create_intervals_table', '2');
+INSERT INTO `migrations` VALUES ('2017_09_07_133121_create_streams_table', '3');
+INSERT INTO `migrations` VALUES ('2017_09_09_012538_rename_interval_id_to_streams', '4');
+INSERT INTO `migrations` VALUES ('2017_09_09_020839_add_start_time_and_end_time_to_streams', '5');
+INSERT INTO `migrations` VALUES ('2017_09_10_202618_create_policies_table', '6');
+INSERT INTO `migrations` VALUES ('2017_09_11_203129_add_global_interval_id_to_streams', '7');
+INSERT INTO `migrations` VALUES ('2017_09_22_172146_create_jobs_table', '8');
+INSERT INTO `migrations` VALUES ('2017_09_26_082750_create_servers_table', '9');
+INSERT INTO `migrations` VALUES ('2017_09_27_084003_create_validate_cycles_table', '10');
+INSERT INTO `migrations` VALUES ('2017_09_27_161705_create_notifications_table', '11');
+
+-- ----------------------------
+-- Table structure for `notifications`
+-- ----------------------------
+DROP TABLE IF EXISTS `notifications`;
+CREATE TABLE `notifications` (
+  `id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `type` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `notifiable_id` int(10) unsigned NOT NULL,
+  `notifiable_type` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `data` text COLLATE utf8_unicode_ci NOT NULL,
+  `read_at` timestamp NULL DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `notifications_notifiable_id_notifiable_type_index` (`notifiable_id`,`notifiable_type`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of notifications
+-- ----------------------------
+INSERT INTO `notifications` VALUES ('01b34053-9c11-4cdc-bb46-84d62d763368', 'App\\Notifications\\ServerError', '1', 'App\\User', '{\"ip\":\"123.206.65.137\",\"msg\":\"script run error!  error is: name \'confi\' is not defined\"}', '2017-09-28 17:53:59', '2017-09-28 17:46:41', '2017-09-28 17:53:59');
+INSERT INTO `notifications` VALUES ('09b18099-cc66-489d-8c0f-ab79ad9c6f53', 'App\\Notifications\\ServerError', '1', 'App\\User', '{\"ip\":\"123.206.65.137\",\"msg\":\"Server breakdown!\"}', '2017-09-28 17:36:02', '2017-09-28 16:29:02', '2017-09-28 17:36:02');
+INSERT INTO `notifications` VALUES ('09f96168-2312-438e-a15c-2ae527ef9eeb', 'App\\Notifications\\ServerError', '1', 'App\\User', '{\"ip\":\"123.206.65.137\",\"msg\":\"script run error!  error is: module \'config\' has no attribute \'SERVER_STATUS_CALLBACK_ADD\'\"}', '2017-09-28 17:53:59', '2017-09-28 17:48:24', '2017-09-28 17:53:59');
+INSERT INTO `notifications` VALUES ('0a8aae0c-a4d2-4eea-bee8-0909fa703787', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":40,\"per_status\":0,\"to_status\":100}', '2017-09-28 17:35:58', '2017-09-28 16:23:01', '2017-09-28 17:35:58');
+INSERT INTO `notifications` VALUES ('0bb3024c-692d-42e1-937b-4010347819c5', 'App\\Notifications\\ServerError', '1', 'App\\User', '{\"ip\":\"123.206.65.137\",\"msg\":\"Server breakdown!\"}', '2017-09-28 17:36:02', '2017-09-28 16:40:02', '2017-09-28 17:36:02');
+INSERT INTO `notifications` VALUES ('11401c00-edb6-4215-9286-d07a25f481ed', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":42,\"per_status\":0,\"to_status\":100}', '2017-09-28 17:35:58', '2017-09-28 16:36:01', '2017-09-28 17:35:58');
+INSERT INTO `notifications` VALUES ('2082cc17-6456-49d9-a042-b0f92f27ee64', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"2\",\"per_status\":100,\"to_status\":150}', '2017-09-28 16:21:28', '2017-09-28 11:53:46', '2017-09-28 16:21:28');
+INSERT INTO `notifications` VALUES ('2646f6ed-7346-4d5d-b6d4-e61053b000b8', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":43,\"per_status\":0,\"to_status\":100}', null, '2017-09-28 17:55:02', '2017-09-28 17:55:02');
+INSERT INTO `notifications` VALUES ('2825ddc9-e913-4dd5-a4ba-f2a087d3770c', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"4\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:02', '2017-09-28 11:53:24');
+INSERT INTO `notifications` VALUES ('28785e32-8a53-4a25-8a0c-3ae66c14ae49', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"6\",\"per_status\":100,\"to_status\":150}', '2017-09-28 16:21:28', '2017-09-28 11:53:47', '2017-09-28 16:21:28');
+INSERT INTO `notifications` VALUES ('2f01ed99-3dec-4d91-953e-b4da51029dae', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":43,\"per_status\":100,\"to_status\":150}', null, '2017-09-28 17:58:01', '2017-09-28 17:58:01');
+INSERT INTO `notifications` VALUES ('400bba5c-5db8-4568-a854-bd58e63ccf2e', 'App\\Notifications\\ServerError', '1', 'App\\User', '{\"ip\":\"123.206.65.137\",\"msg\":\"\\u9519\\u8bef\"}', '2017-09-28 11:59:13', '2017-09-28 11:53:18', '2017-09-28 11:59:13');
+INSERT INTO `notifications` VALUES ('47f5f545-89df-4421-afb5-6c19524692d9', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"6\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:02', '2017-09-28 11:53:24');
+INSERT INTO `notifications` VALUES ('5485d8f8-64cf-4f66-906b-ac596c02f1e1', 'App\\Notifications\\StreamError', '1', 'App\\User', '{\"stream_id\":1,\"msg\":\"\\u6d4b\\u8bd5\\u9519\\u8bef\",\"status\":\"\\u6d4b\\u8bd5\\u9519\\u8bef\"}', '2017-09-28 11:53:06', '2017-09-28 11:49:01', '2017-09-28 11:53:06');
+INSERT INTO `notifications` VALUES ('56b541de-cbc8-4984-a682-a804efb7a372', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"4\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:18', '2017-09-28 11:53:24');
+INSERT INTO `notifications` VALUES ('58beebcd-c4ea-4115-99c4-bebd5c0c379f', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"2\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:52:26', '2017-09-28 11:49:01', '2017-09-28 11:52:26');
+INSERT INTO `notifications` VALUES ('5b5738ac-bab9-4255-8b9b-516cfa55c81a', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"5\",\"per_status\":100,\"to_status\":150}', '2017-09-28 16:21:28', '2017-09-28 11:53:46', '2017-09-28 16:21:28');
+INSERT INTO `notifications` VALUES ('6657bd2f-c1bb-4351-845c-a509da13ae81', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"1\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:18', '2017-09-28 11:53:24');
+INSERT INTO `notifications` VALUES ('6d507e95-da1a-410f-9e99-88765c31d1b4', 'App\\Notifications\\ServerError', '1', 'App\\User', '{\"ip\":\"123.206.65.137\",\"msg\":\"\\u9519\\u8bef\"}', '2017-09-28 11:53:06', '2017-09-28 11:49:01', '2017-09-28 11:53:06');
+INSERT INTO `notifications` VALUES ('6e13f143-5eba-487c-9952-3897ccd028b3', 'App\\Notifications\\StreamError', '1', 'App\\User', '{\"stream_id\":1,\"msg\":\"\\u6d4b\\u8bd5\\u9519\\u8bef\",\"status\":\"\\u6d4b\\u8bd5\\u9519\\u8bef\"}', '2017-09-28 10:11:12', '2017-09-28 09:25:28', '2017-09-28 10:11:12');
+INSERT INTO `notifications` VALUES ('733c3c6d-e47f-4410-b624-c857de91c247', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"5\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:02', '2017-09-28 11:53:24');
+INSERT INTO `notifications` VALUES ('750b262e-e68b-4dcc-8f49-b4a5f9fc0b5a', 'App\\Notifications\\ServerError', '1', 'App\\User', '{\"ip\":\"123.206.65.137\",\"msg\":\"Server breakdown!\"}', '2017-09-28 17:36:02', '2017-09-28 17:01:02', '2017-09-28 17:36:02');
+INSERT INTO `notifications` VALUES ('8b357552-41ab-4c4e-a739-abd7d20c8a67', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"1\",\"per_status\":100,\"to_status\":150}', '2017-09-28 10:11:12', '2017-09-28 09:25:14', '2017-09-28 10:11:12');
+INSERT INTO `notifications` VALUES ('8b902d8f-dabe-4636-908c-d9b4a46a0798', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":42,\"per_status\":100,\"to_status\":150}', '2017-09-28 17:35:58', '2017-09-28 16:53:01', '2017-09-28 17:35:58');
+INSERT INTO `notifications` VALUES ('8ca8505b-fff1-454e-9cc1-edbba3039235', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"1\",\"per_status\":100,\"to_status\":150}', '2017-09-28 10:11:12', '2017-09-28 09:07:43', '2017-09-28 10:11:12');
+INSERT INTO `notifications` VALUES ('8d8ec58f-757b-4e0b-a569-cf14d6eb1288', 'App\\Notifications\\StreamError', '1', 'App\\User', '{\"stream_id\":1,\"msg\":\"\\u6d4b\\u8bd5\\u9519\\u8bef\",\"status\":\"\\u6d4b\\u8bd5\\u9519\\u8bef\"}', '2017-09-28 11:59:13', '2017-09-28 11:53:17', '2017-09-28 11:59:13');
+INSERT INTO `notifications` VALUES ('94e2be78-4072-4972-92b4-a1ecae3f1dc0', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"3\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:52:26', '2017-09-28 11:49:02', '2017-09-28 11:52:26');
+INSERT INTO `notifications` VALUES ('98ef057f-b74a-4d3b-8747-e841c3df8c70', 'App\\Notifications\\ServerError', '1', 'App\\User', '{\"ip\":\"123.206.65.137\",\"msg\":\"\\u9519\\u8bef\"}', '2017-09-28 10:11:12', '2017-09-28 08:54:24', '2017-09-28 10:11:12');
+INSERT INTO `notifications` VALUES ('aef58e21-3c83-4aa6-8d35-640defcd50e1', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"2\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:18', '2017-09-28 11:53:24');
+INSERT INTO `notifications` VALUES ('af0aba6a-497c-4805-b7e3-24606dd811d4', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"1\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:52:26', '2017-09-28 11:49:01', '2017-09-28 11:52:26');
+INSERT INTO `notifications` VALUES ('b1bbc9c2-538f-4b77-9ab2-828f388f01a1', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"3\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:02', '2017-09-28 11:53:24');
+INSERT INTO `notifications` VALUES ('b47efff3-238c-45da-81c1-e4f2cdb73cd2', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"2\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:02', '2017-09-28 11:53:24');
+INSERT INTO `notifications` VALUES ('c28dd4ce-1f6d-4da1-992d-81d36accf7c7', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"3\",\"per_status\":100,\"to_status\":150}', '2017-09-28 16:21:28', '2017-09-28 11:53:46', '2017-09-28 16:21:28');
+INSERT INTO `notifications` VALUES ('c58b9d3d-c503-4625-890e-075a7649d570', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"4\",\"per_status\":100,\"to_status\":150}', '2017-09-28 16:21:28', '2017-09-28 11:53:46', '2017-09-28 16:21:28');
+INSERT INTO `notifications` VALUES ('ce85f855-ad5d-4243-a99b-06c392423b0c', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"6\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:18', '2017-09-28 11:53:24');
+INSERT INTO `notifications` VALUES ('cf7f6524-0781-42d3-880c-e526cce73f85', 'App\\Notifications\\ServerError', '1', 'App\\User', '{\"ip\":\"123.206.65.137\",\"msg\":\"Server off Line!\"}', '2017-09-28 17:53:59', '2017-09-28 17:36:02', '2017-09-28 17:53:59');
+INSERT INTO `notifications` VALUES ('d3c57972-ae97-45a5-8c99-382fdb63bb21', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":41,\"per_status\":0,\"to_status\":100}', '2017-09-28 17:35:58', '2017-09-28 16:25:01', '2017-09-28 17:35:58');
+INSERT INTO `notifications` VALUES ('d71ad283-3ad1-4b1b-a726-1f0ebbbf036a', 'App\\Notifications\\StreamError', '1', 'App\\User', '{\"stream_id\":1,\"msg\":\"\\u6d4b\\u8bd5\\u9519\\u8bef\",\"status\":\"\\u6d4b\\u8bd5\\u9519\\u8bef\"}', '2017-09-28 10:11:12', '2017-09-28 08:38:03', '2017-09-28 10:11:12');
+INSERT INTO `notifications` VALUES ('dac35722-ea6b-4453-9e7a-509199a61df5', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"1\",\"per_status\":100,\"to_status\":150}', '2017-09-28 16:21:28', '2017-09-28 11:53:46', '2017-09-28 16:21:28');
+INSERT INTO `notifications` VALUES ('dc0faa0f-0c88-4964-99f2-1e898d59dfa7', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"1\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:01', '2017-09-28 11:53:24');
+INSERT INTO `notifications` VALUES ('eb727459-c062-4506-9ec5-973066206489', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"5\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:18', '2017-09-28 11:53:24');
+INSERT INTO `notifications` VALUES ('f23ed845-58a1-47ec-912b-6cdf7f4e759f', 'App\\Notifications\\StreamStatusChange', '1', 'App\\User', '{\"stream_id\":\"3\",\"per_status\":100,\"to_status\":150}', '2017-09-28 11:53:24', '2017-09-28 11:53:18', '2017-09-28 11:53:24');
+
+-- ----------------------------
+-- Table structure for `password_resets`
+-- ----------------------------
+DROP TABLE IF EXISTS `password_resets`;
+CREATE TABLE `password_resets` (
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `token` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  KEY `password_resets_email_index` (`email`) USING BTREE,
+  KEY `password_resets_token_index` (`token`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of password_resets
+-- ----------------------------
+INSERT INTO `password_resets` VALUES ('1098030258@qq.com', 'e84b9cd59da900b80ca229010ffb884613a784a906f16939aace761f561005d5', '2017-09-07 13:02:53');
+
+-- ----------------------------
+-- Table structure for `policies`
+-- ----------------------------
+DROP TABLE IF EXISTS `policies`;
+CREATE TABLE `policies` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `timestamp` int(10) unsigned NOT NULL,
+  `interval_id` int(10) unsigned NOT NULL,
+  `stream_id` int(10) unsigned NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `policies_interval_id_foreign` (`interval_id`) USING BTREE,
+  KEY `policies_stream_id_foreign` (`stream_id`) USING BTREE,
+  CONSTRAINT `policies_ibfk_1` FOREIGN KEY (`interval_id`) REFERENCES `intervals` (`id`),
+  CONSTRAINT `policies_ibfk_2` FOREIGN KEY (`stream_id`) REFERENCES `streams` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of policies
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `servers`
+-- ----------------------------
+DROP TABLE IF EXISTS `servers`;
+CREATE TABLE `servers` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `ip` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `call_live_count` tinyint(4) NOT NULL DEFAULT '0',
+  `status` mediumint(4) NOT NULL DEFAULT '200',
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `ip_index` (`ip`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of servers
+-- ----------------------------
+INSERT INTO `servers` VALUES ('3', '123.206.65.137', '0', '200', '2017-09-26 10:13:56', '2017-09-28 18:00:02');
+INSERT INTO `servers` VALUES ('6', '123.106.65.138', '4', '500', '2017-09-26 21:38:19', '2017-09-26 23:41:01');
+
+-- ----------------------------
+-- Table structure for `streams`
+-- ----------------------------
+DROP TABLE IF EXISTS `streams`;
+CREATE TABLE `streams` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `url` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `server_id` int(10) unsigned NOT NULL,
+  `collect_current_interval_id` int(10) unsigned DEFAULT NULL,
+  `collect_global_interval_id` int(10) unsigned zerofill NOT NULL DEFAULT '0000000000',
+  `online_interval_id` int(10) unsigned NOT NULL DEFAULT '1',
+  `image_num_current_val` int(10) unsigned DEFAULT '0',
+  `image_num_current` int(10) unsigned DEFAULT '0',
+  `acc_expected` int(10) unsigned NOT NULL DEFAULT '1',
+  `acc_current` int(10) unsigned DEFAULT NULL,
+  `validate_cycle_id` int(10) unsigned NOT NULL DEFAULT '1',
+  `is_forbidden` tinyint(4) NOT NULL DEFAULT '0',
+  `retry_num` tinyint(4) NOT NULL DEFAULT '0',
+  `status` smallint(5) unsigned NOT NULL DEFAULT '0',
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `start_timestamp` int(10) unsigned NOT NULL,
+  `end_timestamp` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `streams_current_interval_id_foreign` (`collect_current_interval_id`) USING BTREE,
+  KEY `streams_global_interval_id_foreign` (`collect_global_interval_id`) USING BTREE,
+  KEY `streams_ibfk_3` (`server_id`),
+  KEY `streams_ibfk_4` (`validate_cycle_id`),
+  KEY `streams_ibfk_5` (`online_interval_id`),
+  CONSTRAINT `streams_ibfk_1` FOREIGN KEY (`collect_global_interval_id`) REFERENCES `intervals` (`id`),
+  CONSTRAINT `streams_ibfk_2` FOREIGN KEY (`collect_current_interval_id`) REFERENCES `intervals` (`id`),
+  CONSTRAINT `streams_ibfk_3` FOREIGN KEY (`server_id`) REFERENCES `servers` (`id`),
+  CONSTRAINT `streams_ibfk_4` FOREIGN KEY (`validate_cycle_id`) REFERENCES `validate_cycles` (`id`),
+  CONSTRAINT `streams_ibfk_5` FOREIGN KEY (`online_interval_id`) REFERENCES `intervals` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of streams
+-- ----------------------------
+INSERT INTO `streams` VALUES ('43', 'rtmp://live.hkstv.hk.lxdns.com/live/hks', '3', null, '0000000001', '1', '0', '90', '10', null, '1', '0', '0', '150', null, '2017-09-28 17:58:01', '1506592500', '1506592680');
+
+-- ----------------------------
+-- Table structure for `users`
+-- ----------------------------
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `users_email_unique` (`email`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of users
+-- ----------------------------
+INSERT INTO `users` VALUES ('1', 'xiaosong', '1098030258@qq.com', '$2y$10$IXW9UdIVqTPWZai2z74WnOP7l81drM9Xs5nMutRNfZJFuPZNkoGJO', '9AQ2dUieBOokIDUKvk0Jy4HY5127wAsNII5gUEjrc2mkv57Ei2a1yqzLa6in', '2017-09-07 11:09:40', '2017-09-13 20:04:13');
+
+-- ----------------------------
+-- Table structure for `validate_cycles`
+-- ----------------------------
+DROP TABLE IF EXISTS `validate_cycles`;
+CREATE TABLE `validate_cycles` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `days` smallint(5) unsigned NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of validate_cycles
+-- ----------------------------
+INSERT INTO `validate_cycles` VALUES ('1', '1', '2017-09-27 08:53:31', '2017-09-27 08:53:34');
+INSERT INTO `validate_cycles` VALUES ('2', '2', '2017-09-27 09:26:13', '2017-09-27 09:26:16');
+INSERT INTO `validate_cycles` VALUES ('3', '3', '2017-09-27 09:26:38', '2017-09-27 09:26:41');
